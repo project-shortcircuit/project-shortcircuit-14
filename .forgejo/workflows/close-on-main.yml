@@ -14,6 +14,7 @@ jobs:
       env:
         FJ_SERVER: ${{ forgejo.server_url }}
         FJ_TOKEN: ${{ forgejo.token }}
+        FJ_REPO: ${{ forgejo.repository }}
         PR_NUMBER: ${{ forgejo.event.pull_request.number }}
       run: |
         curl -f -H 'Content-Type: application/json' -H "Authorization: token ${FJ_TOKEN}" --request POST --data '{"body": "Thank you for contributing to Project Shortcircuit 14! It would appear that you have submitted your PR from your main branch. Consider following the [SS14 developer documentation](https://docs.spacestation14.com/en/general-development/setup/git-for-the-ss14-developer.html) to get instructions on proper GIT usage.\n\nYou can move your current work from your main branch to another branch by doing `git branch <branch_name>` and resetting the main branch."}' "${FJ_SERVER}/api/v1/repos/${FJ_REPO}/issues/${PR_NUMBER}/comments"
