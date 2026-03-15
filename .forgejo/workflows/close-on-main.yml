@@ -13,7 +13,7 @@ jobs:
     - name: Close PR on main branch
       env:
         FJ_SERVER: ${{ forgejo.server_url }}
-        FJ_TOKEN: ${{ forgejo.token }}
+        FJ_TOKEN: ${{ secrets.BOT_TOKEN }}
         FJ_REPO: ${{ forgejo.repository }}
         PR_NUMBER: ${{ forgejo.event.pull_request.number }}
       run: |
