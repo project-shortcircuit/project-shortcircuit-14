@@ -17,16 +17,14 @@
 using Content.Server.StationEvents.Components;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Database;
-using Content.Shared.Dataset;
 using Content.Shared.FixedPoint;
-using Content.Shared.GameTicking.Components;
-using Content.Shared.Random;
-using Content.Shared.Random.Helpers;
 using Content.Shared.Silicons.Laws;
 using Content.Shared.Silicons.Laws.Components;
-using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using System.Linq;
+using Content.Shared.Random;
+using Content.Shared.Random.Helpers;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server.Silicons.Laws;
 
@@ -36,6 +34,7 @@ public sealed class IonStormSystem : EntitySystem
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
     [Dependency] private readonly SiliconLawSystem _siliconLaw = default!;
     [Dependency] private readonly IRobustRandom _robustRandom = default!;
+    [Dependency] private readonly IonLawSystem _ionLaw = default!;
 
     /// <summary>
     /// Randomly alters the laws of an individual silicon.
@@ -89,7 +88,7 @@ public sealed class IonStormSystem : EntitySystem
         }
 
         // generate a new law...
-        var newLaw = GenerateLaw();
+        var newLaw = _ionLaw.GetIonLaw();
 
         if (string.IsNullOrEmpty(newLaw))
             return;
@@ -140,26 +139,5 @@ public sealed class IonStormSystem : EntitySystem
         EnsureComp<SiliconLawProviderComponent>(ent);
         var ev = new IonStormLawsEvent(laws);
         RaiseLocalEvent(ent, ref ev);
-    }
-
-    private string GenerateLaw()
-    {
-        var ionLaws = _proto.EnumeratePrototypes<IonLawPrototype>().ToList();
-        if (ionLaws.Count == 0)
-            return string.Empty;
-
-        var law = _robustRandom.Pick(ionLaws);
-        var args = new List<(string, object)>();
-        foreach (var (key, selectors) in law.Targets)
-        {
-            var selector = IonLawSelector.Pick(_robustRandom, selectors);
-            var value = selector.Select(_robustRandom, _proto, EntityManager);
-            if (value == null)
-                continue;
-
-            args.Add((key, value));
-        }
-
-        return Loc.GetString(law.LawString, args.ToArray());
     }
 }
