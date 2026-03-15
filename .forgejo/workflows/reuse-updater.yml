@@ -18,7 +18,6 @@ on:
 
 jobs:
   update_headers:
-    if: ${{ !contains(forgejo.event.head_commit.message, 'Automatically update REUSE headers') }}
     runs-on: codeberg-small
     steps:
       - name: Checkout Code
