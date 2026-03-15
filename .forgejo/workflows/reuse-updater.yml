@@ -62,8 +62,8 @@ jobs:
             ADDED_FILES=""
             MODIFIED_FILES=""
           else
-            ADDED_FILES=$(echo "$PR_FILES" | grep "^added" | grep -E '\.(cs|ya?ml)$' | sed 's/^added //' | xargs) || true
-            MODIFIED_FILES=$(echo "$PR_FILES" | grep "^modified" | grep -E '\.(cs|ya?ml)$' | sed 's/^modified //' | xargs) || true
+            ADDED_FILES=$(echo "$PR_FILES" | grep "^added" | grep -E '\.(cs|py|sh|ya?ml)$' | sed 's/^added //' | xargs) || true
+            MODIFIED_FILES=$(echo "$PR_FILES" | grep "^modified" | grep -E '\.(cs|py|sh|ya?ml)$' | sed 's/^modified //' | xargs) || true
           fi
           echo "Added Files: $ADDED_FILES"
           echo "Modified Files: $MODIFIED_FILES"
