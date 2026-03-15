@@ -1,0 +1,15 @@
+version = 1
+SPDX-PackageName = "Project Shortcircuit 14"
+SPDX-PackageSupplier = "ilyamikcoder <me@ilyamikcoder.com>"
+
+[[annotations]]
+path = ["Resources/Audio/**", "Resources/Textures/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "None"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["**.txt", "**.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "None"
+SPDX-License-Identifier = "MIT"
