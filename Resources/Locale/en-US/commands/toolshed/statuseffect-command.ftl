@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 command-description-statuseffect-add =
     Adds time in seconds to a given status effect's duration, or creates one with a duration equal to time.
 command-description-statuseffect-update =

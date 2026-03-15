@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 # System
 station-ai-fixer-console-is-locked = The console is locked.
 station-ai-fixer-console-station-ai-holder-required = Only AI storage units can be inserted into the console.

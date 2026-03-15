@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 Mervill <mervills.email@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 gas-miner-mines-text = It mines [color=lightgray]{$gas}[/color] when active.
 
 gas-miner-amount-text = It mines {$moles} moles of gas a second when active.

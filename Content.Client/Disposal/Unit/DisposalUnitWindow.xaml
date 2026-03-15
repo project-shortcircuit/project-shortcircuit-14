@@ -1,4 +1,16 @@
-﻿<controls:FancyWindow xmlns="https://spacestation14.io"
+<!--
+SPDX-FileCopyrightText: 2021 Visne <39844191+Visne@users.noreply.github.com>
+SPDX-FileCopyrightText: 2022 Julian Giebel <juliangiebel@live.de>
+SPDX-FileCopyrightText: 2022 Paul Ritter <ritter.paul1@googlemail.com>
+SPDX-FileCopyrightText: 2022 wrexbe <81056464+wrexbe@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Errant <35878406+Errant-4@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<controls:FancyWindow xmlns="https://spacestation14.io"
                       xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
                       xmlns:disposal="clr-namespace:Content.Client.Disposal"
                       MinSize="300 140"

@@ -1,4 +1,9 @@
-﻿# Chat window telephone wrap (prefix and postfix)
+# SPDX-FileCopyrightText: 2025 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+# Chat window telephone wrap (prefix and postfix)
 chat-telephone-message-wrap = [color={$color}][bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}]"{$message}"[/font][/color]
 chat-telephone-message-wrap-bold = [color={$color}][bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}][bold]"{$message}"[/bold][/font][/color]
 

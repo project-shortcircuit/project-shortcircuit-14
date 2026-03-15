@@ -1,4 +1,9 @@
-﻿addtag-command-description = Adds a tag to a given entity
+# SPDX-FileCopyrightText: 2023 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+addtag-command-description = Adds a tag to a given entity
 addtag-command-help = Usage: addtag <entity uid> <tag>
 
 addtag-command-success = Added {$tag} to {$target}.

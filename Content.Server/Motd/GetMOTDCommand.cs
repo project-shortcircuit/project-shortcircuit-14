@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2023 TemporalOroboros <TemporalOroboros@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.Administration;
 using Robust.Shared.Console;
 

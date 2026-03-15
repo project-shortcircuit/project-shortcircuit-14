@@ -1,3 +1,10 @@
+// SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2024 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Red <96445749+TheShuEd@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Client.Parallax;
 using Content.Client.Weather;
 using Content.Shared.StatusEffectNew;

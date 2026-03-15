@@ -1,4 +1,10 @@
-﻿using Content.Server.Administration.Logs;
+// SPDX-FileCopyrightText: 2024 Julian Giebel <juliangiebel@live.de>
+// SPDX-FileCopyrightText: 2025 SpaceManiac <tad@platymuus.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Server.Administration.Logs;
 using Content.Server.Audio;
 using Content.Server.Power.Components;
 using Content.Shared.Database;

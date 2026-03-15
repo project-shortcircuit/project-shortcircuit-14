@@ -1,4 +1,10 @@
-﻿using System.Data;
+// SPDX-FileCopyrightText: 2024 Julian Giebel <juliangiebel@live.de>
+// SPDX-FileCopyrightText: 2025 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using System.Data;
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Server.Administration.Managers;

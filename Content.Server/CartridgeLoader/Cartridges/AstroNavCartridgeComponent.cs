@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2024 ArchRBX <5040911+ArchRBX@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.CartridgeLoader.Cartridges;
 using Content.Shared.GPS;
 

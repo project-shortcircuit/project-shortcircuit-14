@@ -1,3 +1,26 @@
+<!--
+SPDX-FileCopyrightText: 2017 PJB3005 <pieterjan.briers@gmail.com>
+SPDX-FileCopyrightText: 2018 Pieter-Jan Briers <pieterjan.briers@gmail.com>
+SPDX-FileCopyrightText: 2019 Ivan <silvertorch5@gmail.com>
+SPDX-FileCopyrightText: 2019 Silver <silvertorch5@gmail.com>
+SPDX-FileCopyrightText: 2020 Injazz <43905364+Injazz@users.noreply.github.com>
+SPDX-FileCopyrightText: 2020 RedlineTriad <39059512+RedlineTriad@users.noreply.github.com>
+SPDX-FileCopyrightText: 2020 Víctor Aguilera Puerto <zddm@outlook.es>
+SPDX-FileCopyrightText: 2021 Paul Ritter <ritter.paul1@googlemail.com>
+SPDX-FileCopyrightText: 2021 Swept <sweptwastaken@protonmail.com>
+SPDX-FileCopyrightText: 2021 mirrorcult <lunarautomaton6@gmail.com>
+SPDX-FileCopyrightText: 2022 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+SPDX-FileCopyrightText: 2022 ike709 <ike709@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 iglov <iglov@avalon.land>
+SPDX-FileCopyrightText: 2024 router <messagebus@vk.com>
+SPDX-FileCopyrightText: 2025 AL-S? <99600368+cryals@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Stefano Pigozzi <me@steffo.eu>
+SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 <div class="header" align="center">  
 <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg">  
 </div>

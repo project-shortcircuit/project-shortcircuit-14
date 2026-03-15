@@ -1,4 +1,13 @@
-﻿<PanelContainer xmlns="https://spacestation14.io"
+<!--
+SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Brandon Li <48413902+aspiringLich@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Jessica M <jessica@jessicamaybe.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<PanelContainer xmlns="https://spacestation14.io"
                 HorizontalExpand="True"
                 StyleClasses="PanelLight"
                 Margin="5 5 5 0">

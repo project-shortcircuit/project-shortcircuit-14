@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 command-description-scale-set =
     Sets an entity's sprite size to a certain scale (without changing its fixture).
 command-description-scale-get =

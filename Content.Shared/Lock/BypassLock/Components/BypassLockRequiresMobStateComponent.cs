@@ -1,4 +1,9 @@
-﻿using Content.Shared.Lock.BypassLock.Systems;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Sir Warock <67167466+SirWarock@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared.Lock.BypassLock.Systems;
 using Content.Shared.Mobs;
 using Robust.Shared.GameStates;
 

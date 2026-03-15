@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Palladinium <patrick.chieppe@hotmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 discord-watchlist-connection-header =
     { $players ->
         [one] {$players} player on a watchlist has

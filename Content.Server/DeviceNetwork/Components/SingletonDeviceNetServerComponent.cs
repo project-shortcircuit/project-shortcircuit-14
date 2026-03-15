@@ -1,4 +1,9 @@
-﻿using Content.Server.DeviceNetwork.Systems;
+// SPDX-FileCopyrightText: 2024 Julian Giebel <juliangiebel@live.de>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Server.DeviceNetwork.Systems;
 
 namespace Content.Server.DeviceNetwork.Components;
 

@@ -1,3 +1,13 @@
+<!--
+SPDX-FileCopyrightText: 2022 Eoin Mcloughlin <helloworld@eoinrul.es>
+SPDX-FileCopyrightText: 2022 eoineoineoin <eoin.mcloughlin+gh@gmail.com>
+SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+SPDX-FileCopyrightText: 2025 Ser11y <160628372+Ser1-1y@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 <BoxContainer xmlns="https://spacestation14.io"
     HorizontalExpand="True" Orientation="Vertical"
             Margin = "20 0 0 0" MinSize="160 0" >

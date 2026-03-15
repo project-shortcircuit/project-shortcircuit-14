@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 John <50085876+AreYouConfused@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 adjectives-dataset-1 = adorable
 adjectives-dataset-2 = adventurous
 adjectives-dataset-3 = aggressive

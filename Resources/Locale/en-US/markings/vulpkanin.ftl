@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2025 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 SurrealShibe <77357653+SurrealShibe@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 Tiniest Shark <head.rebel@yahoo.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Ears
 marking-VulpEar-vulp = Vulpkanin ears (Base)
 marking-VulpEar-vulp-inner = Vulpkanin ears (Inner)

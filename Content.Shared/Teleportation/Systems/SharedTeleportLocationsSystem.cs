@@ -1,4 +1,9 @@
-﻿using Content.Shared.Teleportation.Components;
+// SPDX-FileCopyrightText: 2025 keronshb <54602815+keronshb@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared.Teleportation.Components;
 using Content.Shared.Timing;
 using Content.Shared.UserInterface;
 using Content.Shared.Warps;

@@ -1,4 +1,9 @@
-﻿using Content.Server.NodeContainer.EntitySystems;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Samuka <47865393+Samuka-C@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Server.NodeContainer.EntitySystems;
 using Content.Server.Power.Components;
 using Content.Shared.NodeContainer;
 using Content.Shared.NodeContainer.NodeGroups;

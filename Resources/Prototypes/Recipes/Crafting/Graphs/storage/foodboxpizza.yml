@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2023 MisterMecky <mrmecky@hotmail.com>
+# SPDX-FileCopyrightText: 2024 saga3152 <133799418+saga3152@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 - type: constructionGraph
   id: FoodBoxPizza
   start: start

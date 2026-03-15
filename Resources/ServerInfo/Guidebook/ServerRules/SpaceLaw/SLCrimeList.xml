@@ -1,3 +1,14 @@
+<!--
+SPDX-FileCopyrightText: 2024 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 dffdff2423 <dffdff2423@gmail.com>
+SPDX-FileCopyrightText: 2025 Hitlinemoss <209321380+Hitlinemoss@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+SPDX-FileCopyrightText: 2026 PicklOH <62030853+PicklOH@users.noreply.github.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 <Document>
   # Space Law: Crime Listing
   Crime codes are colored by linked crime groups, which are collections of non-stackable crimes. Suffixes are also included in the Quick Crime Guide to identify linked crimes.

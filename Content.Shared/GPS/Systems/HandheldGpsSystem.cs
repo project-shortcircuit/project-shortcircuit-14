@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 ArchRBX <5040911+ArchRBX@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.GPS.Components;
 using Content.Shared.Examine;
 using Robust.Shared.Map;

@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-revenant-type-dataset-1 = essence
 names-revenant-type-dataset-2 = ghost
 names-revenant-type-dataset-3 = phantom

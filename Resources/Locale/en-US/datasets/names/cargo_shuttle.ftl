@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-cargo-shuttle-dataset-1 = A Shuttle Will Not Occur
 names-cargo-shuttle-dataset-2 = Big Money Shuttle
 names-cargo-shuttle-dataset-3 = Engine Change

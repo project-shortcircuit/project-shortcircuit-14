@@ -1,4 +1,10 @@
-﻿using Robust.Shared.Physics.Components;
+// SPDX-FileCopyrightText: 2024 Jezithyr <jezithyr@gmail.com>
+// SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Robust.Shared.Physics.Components;
 
 namespace Content.Shared.Movement.Pulling.Events;
 

@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 T-Stalker <43253663+DogZeroX@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 mubururu_ <139181059+muburu@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-dragon-dataset-1 = Dayle
 names-dragon-dataset-2 = Phlogdor
 names-dragon-dataset-3 = Nidir

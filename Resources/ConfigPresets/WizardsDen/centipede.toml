@@ -1,4 +1,9 @@
-﻿# Configuration preset used on Wizard's Den Centipede
+# SPDX-FileCopyrightText: 2023 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+# Configuration preset used on Wizard's Den Centipede
 
 [game]
 hostname = "[EN] Wizard's Den Centipede [Oceania]"

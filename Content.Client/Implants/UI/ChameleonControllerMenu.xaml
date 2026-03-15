@@ -1,4 +1,11 @@
-﻿<controls:FancyWindow xmlns="https://spacestation14.io"
+<!--
+SPDX-FileCopyrightText: 2025 beck-thompson <107373427+beck-thompson@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<controls:FancyWindow xmlns="https://spacestation14.io"
              xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
              Title="{Loc 'chameleon-controller-ui-window-name'}"
              MinSize="250 300"

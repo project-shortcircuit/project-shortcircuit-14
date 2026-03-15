@@ -1,4 +1,9 @@
-﻿using Content.Client.Overlays;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Client.Overlays;
 using Content.Shared.Access.Systems;
 using Content.Shared.StatusIcon;
 using Content.Shared.StatusIcon.Components;

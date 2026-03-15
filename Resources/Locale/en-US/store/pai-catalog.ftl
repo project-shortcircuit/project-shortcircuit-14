@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 ArchRBX <5040911+ArchRBX@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 pai-mass-scanner-name = Mass Scanner
 pai-mass-scanner-desc = Enables you to scan nearby masses to assist in navigation.
 

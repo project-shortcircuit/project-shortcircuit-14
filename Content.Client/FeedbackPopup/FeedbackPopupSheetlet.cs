@@ -1,4 +1,9 @@
-﻿using Content.Client.Stylesheets;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Julian Giebel <juliangiebel@live.de>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Client.Stylesheets;
 using Robust.Client.Graphics;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;

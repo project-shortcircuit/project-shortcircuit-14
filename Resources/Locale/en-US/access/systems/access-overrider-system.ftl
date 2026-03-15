@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2023 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Samuka <47865393+Samuka-C@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 access-overrider-window-privileged-id = Privileged ID:
 access-overrider-window-eject-button = Eject
 access-overrider-window-insert-button = Insert

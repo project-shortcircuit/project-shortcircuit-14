@@ -1,4 +1,9 @@
-﻿# UI
+# SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+# UI
 ban-list-bans = Bans
 ban-list-role-bans = Role Bans
 

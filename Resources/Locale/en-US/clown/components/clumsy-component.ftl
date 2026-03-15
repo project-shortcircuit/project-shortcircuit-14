@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 clumsy-vaulting-fail-forced-message = { CAPITALIZE($bonker) } bonks { $victim }s head against { THE($bonkable) }!
 clumsy-vaulting-fail-message-user = You bonk your head against { THE($bonkable) }!
 clumsy-vaulting-fail-message-others = { $victim } bonks their head against { THE($bonkable) }!

@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2024 Boaz1111 <149967078+Boaz1111@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Server.Temperature.Systems;
 using Content.Server.Temperature.Components; 
 using Content.Shared.Temperature;

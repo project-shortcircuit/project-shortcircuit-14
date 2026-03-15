@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2021 Vera Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 cmd-setooc-desc = Allows you to enable or disable OOC.
 cmd-setooc-help = Usage: setooc OR setooc [value]
 cmd-setooc-ooc-enabled = OOC chat has been enabled.

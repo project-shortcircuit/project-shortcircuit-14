@@ -1,4 +1,9 @@
-﻿advertisement-bruiseomat-1 = I VOTE WAROPS!!!
+# SPDX-FileCopyrightText: 2024 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+advertisement-bruiseomat-1 = I VOTE WAROPS!!!
 advertisement-bruiseomat-2 = Who has TC?
 advertisement-bruiseomat-3 = Did anyone buy an EMAG?
 advertisement-bruiseomat-4 = I wanna go back to my home station...

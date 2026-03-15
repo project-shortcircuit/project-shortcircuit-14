@@ -1,4 +1,9 @@
-﻿### Portal verb text
+# SPDX-FileCopyrightText: 2023 Kara <lunarautomaton6@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+### Portal verb text
 
 portal-component-ghost-traverse = Traverse
 

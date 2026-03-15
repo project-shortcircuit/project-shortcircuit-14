@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 descriptions-cookie-fortune-dataset-1 = The end is near... and it's all your fault.
 descriptions-cookie-fortune-dataset-2 = We know what you did.
 descriptions-cookie-fortune-dataset-3 = Beware.

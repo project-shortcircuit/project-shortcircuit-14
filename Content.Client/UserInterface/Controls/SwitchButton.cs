@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2026 Absotively <jen@jenpollock.ca>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using System.Numerics;
 using Robust.Client.UserInterface.Controls;
 

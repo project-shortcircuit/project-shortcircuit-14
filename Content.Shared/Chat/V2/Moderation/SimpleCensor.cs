@@ -1,4 +1,9 @@
-﻿using System.Collections.Frozen;
+// SPDX-FileCopyrightText: 2024 Hannah Giovanna Dawson <karakkaraz@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using System.Collections.Frozen;
 using System.Linq;
 using System.Text;
 using System.Text.Unicode;

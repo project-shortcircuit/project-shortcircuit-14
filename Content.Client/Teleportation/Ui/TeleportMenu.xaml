@@ -1,4 +1,11 @@
-﻿<DefaultWindow xmlns="https://spacestation14.io" Title = "{Loc 'teleportation-scroll-window-title'}" MinSize="450 450" SetSize="450 450">
+<!--
+SPDX-FileCopyrightText: 2025 keronshb <54602815+keronshb@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<DefaultWindow xmlns="https://spacestation14.io" Title = "{Loc 'teleportation-scroll-window-title'}" MinSize="450 450" SetSize="450 450">
     <BoxContainer Orientation="Vertical" HorizontalExpand="True" SizeFlagsStretchRatio="0.4">
         <LineEdit Name="SearchBar" PlaceHolder="Search" HorizontalExpand="True" Margin="0 4" />
         <ScrollContainer Name="TeleportScroll" VerticalExpand="True" HorizontalExpand="True" HScrollEnabled="False">

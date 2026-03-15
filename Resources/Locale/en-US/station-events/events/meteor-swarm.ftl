@@ -1,4 +1,12 @@
-﻿station-event-meteor-swarm-start-announcement = Meteors have been detected on collision course with the station.
+# SPDX-FileCopyrightText: 2022 Kara <lunarautomaton6@gmail.com>
+# SPDX-FileCopyrightText: 2022 Morbo <14136326+Morb0@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 B_Kirill <153602297+B-Kirill@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+station-event-meteor-swarm-start-announcement = Meteors have been detected on collision course with the station.
 station-event-meteor-swarm-end-announcement = The meteor swarm has passed. Please return to your stations.
 
 station-event-space-dust-start-announcement = The station is passing through a debris cloud, expect minor damage to external fittings and fixtures.

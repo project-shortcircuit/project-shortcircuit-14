@@ -1,4 +1,9 @@
-﻿// Global usings for Content.Client
+// SPDX-FileCopyrightText: 2022 mirrorcult <lunarautomaton6@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+// Global usings for Content.Client
 
 global using System;
 global using System.Collections.Generic;

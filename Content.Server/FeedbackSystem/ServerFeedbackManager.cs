@@ -1,4 +1,9 @@
-﻿using Content.Shared.FeedbackSystem;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Julian Giebel <juliangiebel@live.de>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared.FeedbackSystem;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 

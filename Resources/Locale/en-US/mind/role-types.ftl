@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2025 Errant <35878406+Errant-4@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Samuka <47865393+Samuka-C@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 poklj <compgeek223@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 role-type-crew-aligned-name = Crew Aligned
 role-type-solo-antagonist-name = Solo Antagonist
 role-type-team-antagonist-name = Team Antagonist

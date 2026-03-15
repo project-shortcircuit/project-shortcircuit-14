@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 Borsh <85323386+NeBorsh@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Robust.Shared.Prototypes;
 using Robust.Shared.GameStates;
 

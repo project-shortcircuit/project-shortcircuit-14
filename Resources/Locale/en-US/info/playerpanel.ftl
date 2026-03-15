@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 nikthechampiongr <32041239+nikthechampiongr@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 cmd-playerpanel-desc = Displays general information and actions for a player
 cmd-playerpanel-help = Usage: playerpanel <name or user ID>
 

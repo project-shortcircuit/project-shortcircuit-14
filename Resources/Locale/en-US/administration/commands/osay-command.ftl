@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2022 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 Velken <8467292+Velken@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 cmd-osay-desc = Forces another entity to try to send a message
 cmd-osay-help = Usage: {$command} <uid> <type> <message>
 

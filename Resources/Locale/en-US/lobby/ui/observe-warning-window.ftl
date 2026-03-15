@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2021 moonheart08 <moonheart08@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2022 Morbo <exstrominer@gmail.com>
+# SPDX-FileCopyrightText: 2024 Repo <47093363+Titian3@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 observe-nevermind = Nevermind
 observe-confirm = Observe
 observe-warning-1 = Are you sure you want to observe?

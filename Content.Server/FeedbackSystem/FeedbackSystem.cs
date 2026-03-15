@@ -1,4 +1,9 @@
-﻿using Content.Server.GameTicking;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Samuka <47865393+Samuka-C@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Server.GameTicking;
 using Content.Shared.FeedbackSystem;
 using Content.Shared.GameTicking;
 using Robust.Shared.Prototypes;

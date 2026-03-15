@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 pathetic meowmeow <uhhadd@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 guidebook-microwave-ingredients-header = Ingredients
 guidebook-microwave-cook-time-header = Cooking Time
 guidebook-microwave-cook-time =

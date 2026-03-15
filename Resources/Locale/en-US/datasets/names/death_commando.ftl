@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-death-commando-dataset-1 = A whole bunch of spiders in a SWAT suit
 names-death-commando-dataset-2 = AMERICA
 names-death-commando-dataset-3 = Beat Punchbeef

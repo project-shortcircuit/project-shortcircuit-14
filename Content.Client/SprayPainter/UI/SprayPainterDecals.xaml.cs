@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2025 Whatstone <166147148+whatston3@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 SabreML <57483089+SabreML@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Client.Decals.UI;
 using Content.Client.Stylesheets;
 using Content.Shared.Decals;

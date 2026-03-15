@@ -1,2 +1,7 @@
-﻿cmd-startsingularityengine-desc = Automatically turns on the particle accelerator and containment field emitters.
+# SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+cmd-startsingularityengine-desc = Automatically turns on the particle accelerator and containment field emitters.
 cmd-startsingularityengine-help = Usage: startsingularityengine

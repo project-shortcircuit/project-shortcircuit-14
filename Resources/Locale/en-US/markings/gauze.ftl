@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2024 KittenColony <149278380+KittenColony@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Арт <123451459+JustArt1m@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 Minemoder5000 <minemoder50000@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
 marking-GauzeLefteyePatch-gauze_lefteye_2 = Gauze eyepatch (Left)
 marking-GauzeLefteyePatch = Gauze eyepatch (Left)
 

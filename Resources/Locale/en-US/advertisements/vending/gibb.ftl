@@ -1,4 +1,9 @@
-﻿advertisement-gibb-1 = Delicious!
+# SPDX-FileCopyrightText: 2025 Alpaccalypse <21291379+Alpaccalypse@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+advertisement-gibb-1 = Delicious!
 advertisement-gibb-2 = Recommended by at least one doctor!
 advertisement-gibb-3 = Over 1 million drinks sold!
 advertisement-gibb-4 = Dr. Gibb, what's the worst that could happen?

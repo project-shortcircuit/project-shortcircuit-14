@@ -1,3 +1,9 @@
-﻿teg-generator-examine-power = It's currently supplying [color=yellow]{ POWERWATTS($power) }[/color].
+# SPDX-FileCopyrightText: 2023 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+# SPDX-FileCopyrightText: 2025 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+teg-generator-examine-power = It's currently supplying [color=yellow]{ POWERWATTS($power) }[/color].
 teg-generator-examine-power-max-output = It's capable of supplying [color=yellow]{ POWERWATTS($power) }[/color].
 teg-generator-examine-connection = To function, a [color=white]circulator[/color] must be attached on both sides.

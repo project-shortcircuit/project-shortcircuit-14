@@ -1,3 +1,11 @@
+# SPDX-FileCopyrightText: 2021 Galactic Chimp <63882831+GalacticChimp@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Perry Fraser <perryprog@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 lzk <124214523+lzk228@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 lock-comp-on-examined-is-locked = The {$entityName} seems to be [color=darkred]locked[/color].
 lock-comp-on-examined-is-unlocked = The {$entityName} seems to be [color=darkgreen]unlocked[/color].
 lock-comp-do-lock-success = You lock the {$entityName}.

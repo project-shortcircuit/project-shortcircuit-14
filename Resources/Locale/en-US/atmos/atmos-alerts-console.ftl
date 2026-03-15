@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 atmos-alerts-window-title = Atmospheric Alerts Computer
 atmos-alerts-window-station-name = [color=white][font size=14]{$stationName}[/font][/color]
 atmos-alerts-window-unknown-location = Unknown location

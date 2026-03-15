@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 deltanedas <39013340+deltanedas@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.EntityConditions;
 using Content.Shared.EntityEffects.Effects;
 using Robust.Shared.Prototypes;

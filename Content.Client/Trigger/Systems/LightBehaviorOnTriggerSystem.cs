@@ -1,4 +1,9 @@
-﻿using Content.Client.Light.EntitySystems;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Princess Cheeseballs <66055347+Princess-Cheeseballs@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Client.Light.EntitySystems;
 using Content.Shared.Trigger;
 using Content.Shared.Trigger.Components.Effects;
 using Robust.Shared.Timing;

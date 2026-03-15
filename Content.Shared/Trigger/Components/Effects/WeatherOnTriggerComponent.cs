@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2025 Jessica M <jessica@jessicamaybe.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Red <96445749+TheShuEd@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.Weather;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;

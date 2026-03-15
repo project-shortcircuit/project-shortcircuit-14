@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2026 Centronias <me@centronias.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Emergency
 cargoproduct-description-emergencyinflatablewall = Three stacks of inflatable walls for when the stations metal walls don't want to hold atmosphere anymore.
 

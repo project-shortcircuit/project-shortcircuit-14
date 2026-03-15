@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 Red <96445749+TheShuEd@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 - type: soundCollection
   id: Rain
   files:

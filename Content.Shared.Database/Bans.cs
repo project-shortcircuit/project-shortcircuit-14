@@ -1,4 +1,9 @@
-﻿namespace Content.Shared.Database;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+//
+// SPDX-License-Identifier: MIT
+
+namespace Content.Shared.Database;
 
 /// <summary>
 /// Types of bans that can be stored in the database.

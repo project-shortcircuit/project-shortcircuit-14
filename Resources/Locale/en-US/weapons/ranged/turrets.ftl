@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Deployable turret component
 deployable-turret-component-activating = Deploying...
 deployable-turret-component-deactivating = Deactivating...

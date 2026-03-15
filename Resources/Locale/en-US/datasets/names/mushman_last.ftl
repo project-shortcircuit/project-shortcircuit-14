@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-mushman-last-dataset-1 = Porrigens
 names-mushman-last-dataset-2 = Deceptiva
 names-mushman-last-dataset-3 = Fornicatum

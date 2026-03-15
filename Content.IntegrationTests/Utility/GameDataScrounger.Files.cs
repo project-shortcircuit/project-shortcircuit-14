@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2026 Centronias <me@centronias.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
+//
+// SPDX-License-Identifier: MIT
+
 using System.IO;
 using System.Linq;
 using Robust.Shared.ContentPack;

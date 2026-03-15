@@ -1,4 +1,9 @@
-﻿using Content.Shared.Random;
+// SPDX-FileCopyrightText: 2024 Kara <lunarautomaton6@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared.Random;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server.GameTicking.Rules.VariationPass.Components;

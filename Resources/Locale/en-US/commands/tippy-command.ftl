@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2024 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 cmd-tippy-desc = Broadcast a message as Tippy the clown.
 cmd-tippy-help = tippy <user | all> <message> [entity prototype | null] [speak time] [slide time] [waddle interval]
 cmd-tippy-auto-1 = <user | all>

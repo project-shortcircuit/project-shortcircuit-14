@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 spooky-speaker-generic-1 = ...ooOoooOOoooo...
 spooky-speaker-generic-2 = ...can anyone hear me...?
 spooky-speaker-generic-3 = ...join us...

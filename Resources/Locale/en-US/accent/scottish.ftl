@@ -1,4 +1,9 @@
-﻿accent-scottish-words-1 = do
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
+accent-scottish-words-1 = do
 accent-scottish-words-replace-1 = dae
 
 accent-scottish-words-2 = don't

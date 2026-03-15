@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 YotaXP <yotaxp@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.Construction.Prototypes;
 using Lidgren.Network;
 using Robust.Shared.Network;

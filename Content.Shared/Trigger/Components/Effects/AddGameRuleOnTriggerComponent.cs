@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 āda <ss.adasts@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.GameTicking.Components;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;

@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 psykana <36602558+psykana@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.Atmos;
 using Content.Shared.CCVar;
 using Content.Shared.Coordinates;

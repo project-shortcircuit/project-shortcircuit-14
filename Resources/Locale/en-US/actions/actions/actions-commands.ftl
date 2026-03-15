@@ -1,4 +1,10 @@
-﻿## Actions Commands loc
+# SPDX-FileCopyrightText: 2023 keronshb <54602815+keronshb@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 TrixxedHeart <46364955+TrixxedBit@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+## Actions Commands loc
 
 ## Upgradeaction command loc
 upgradeaction-command-help = Usage: upgradeaction <entityUid> [level]

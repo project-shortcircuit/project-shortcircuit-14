@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-autoborg-dataset-1 = Autoburger Helper
 names-autoborg-dataset-2 = Bob
 names-autoborg-dataset-3 = Joe

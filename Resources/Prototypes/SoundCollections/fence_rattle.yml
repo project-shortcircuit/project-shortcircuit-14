@@ -1,4 +1,9 @@
-﻿- type: soundCollection
+# SPDX-FileCopyrightText: 2023 Kara <lunarautomaton6@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+- type: soundCollection
   id: FenceRattle
   files:
   - /Audio/Effects/fence_rattle1.ogg

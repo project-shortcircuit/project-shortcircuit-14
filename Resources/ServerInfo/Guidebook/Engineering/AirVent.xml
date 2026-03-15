@@ -1,4 +1,12 @@
-﻿<Document>
+<!--
+SPDX-FileCopyrightText: 2025 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<Document>
   # Air Vent
   The air vent is a standard vent, found in all rooms that you want to pressurize with a breathable atmosphere.
   Its primary job is to transfer gasses into the atmosphere it's exposed to until it reaches a set pressure.

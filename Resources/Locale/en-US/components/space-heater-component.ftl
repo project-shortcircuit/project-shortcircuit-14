@@ -1,4 +1,10 @@
-﻿comp-space-heater-ui-title = Temperature Control Unit
+# SPDX-FileCopyrightText: 2025 Menshin <Menshin@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Absotively <jen@jenpollock.ca>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+comp-space-heater-ui-title = Temperature Control Unit
 comp-space-heater-ui-thermostat = Thermostat:
 comp-space-heater-ui-mode = Mode
 comp-space-heater-ui-increase-temperature-range = +

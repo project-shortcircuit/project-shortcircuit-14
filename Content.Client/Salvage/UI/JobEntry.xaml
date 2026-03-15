@@ -1,4 +1,11 @@
-﻿<BoxContainer xmlns="https://spacestation14.io"
+<!--
+SPDX-FileCopyrightText: 2025 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<BoxContainer xmlns="https://spacestation14.io"
               xmlns:customControls="clr-namespace:Content.Client.Administration.UI.CustomControls"
               Margin="10 10 10 0"
               HorizontalExpand="True"

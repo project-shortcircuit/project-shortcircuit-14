@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2021 E F R <602406+Efruit@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2021 ike709 <ike709@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Absotively <jen@jenpollock.ca>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 comp-gas-mixer-ui-mixer-output-pressure = Output Pressure (kPa):
 
 comp-gas-mixer-ui-mixer-node-primary = Primary Port:

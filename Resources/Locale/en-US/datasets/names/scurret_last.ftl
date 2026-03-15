@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Hannah Giovanna Dawson <karakkaraz@gmail.com>
+# SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Scurrets from Planet Wawa have two parts to their name - a 'chosen' and 'qualitative' name.
 
 # The qualitative name is usually related to an important feature

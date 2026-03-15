@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2025 ScarKy0 <scarky0@onet.eu>
+// SPDX-FileCopyrightText: 2025 TheFlyingSentry <AFlyingSentry@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 namespace Content.Shared.Body.Events;
 
 /// <summary>

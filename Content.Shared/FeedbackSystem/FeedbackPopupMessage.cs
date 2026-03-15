@@ -1,4 +1,9 @@
-﻿using Lidgren.Network;
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Julian Giebel <juliangiebel@live.de>
+//
+// SPDX-License-Identifier: MIT
+
+using Lidgren.Network;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;

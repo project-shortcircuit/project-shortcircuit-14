@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 UpAndLeaves <92269094+Alpha-Two@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 command-description-inventory-getflags =
     Gets all entities in slots on the piped inventory entity matching a certain slot flag.
 command-description-inventory-getnamed =

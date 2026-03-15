@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Perry Fraser <perryprog@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Quasr <182430031+quasr-9@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 construction-recipe-red-comf-bench = comfortable bench (red)
 construction-recipe-blue-comf-bench = comfortable bench (blue)
 construction-recipe-table-fancy-black = fancy table (black)

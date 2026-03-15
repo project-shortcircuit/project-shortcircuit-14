@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2024 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Winkarst <74284083+Winkarst-cpu@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 custom-vote-webhook-name = Custom Vote Held
 custom-vote-webhook-footer = server: { $serverName }, round: { $roundId } { $runLevel }
 custom-vote-webhook-cancelled = **Vote cancelled**

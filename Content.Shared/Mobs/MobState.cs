@@ -1,4 +1,9 @@
-﻿using Content.Shared.Mobs.Components;
+// SPDX-FileCopyrightText: 2023 Jezithyr <jezithyr@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared.Mobs.Components;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Mobs;

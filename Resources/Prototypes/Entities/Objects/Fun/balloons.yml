@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 āda <ss.adasts@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
 # When adding new balloons, also add it to id: AllMiscToysTable
 
 - type: entity

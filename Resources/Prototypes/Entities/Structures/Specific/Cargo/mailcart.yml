@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Noah Beverly <noahbeverly@gmail.com>
+# SPDX-FileCopyrightText: 2026 Centronias <me@centronias.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Mailcart
 - type: entity
   name: mail cart

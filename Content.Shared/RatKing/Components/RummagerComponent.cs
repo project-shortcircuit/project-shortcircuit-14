@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 Jessica M <jessica@jessicamaybe.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Robust.Shared.GameStates;
 
 namespace Content.Shared.RatKing.Components;

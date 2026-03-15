@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 salvage-job-rank-title-0 = [color=gray]Scavenger[/color]
 salvage-job-rank-title-1 = [color=white]Scrapper[/color]
 salvage-job-rank-title-2 = [color=yellow]Specialist[/color]

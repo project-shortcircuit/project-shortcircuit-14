@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 āda <ss.adasts@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.Random;
 using Content.Shared.Trigger.Components.Triggers;
 using Robust.Shared.GameStates;

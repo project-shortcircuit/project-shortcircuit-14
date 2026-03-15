@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Cooper Wallace <6856074+CooperWallace@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 item-recall-marked-name = Recall {CAPITALIZE($item)}
 item-recall-marked-description = Recall {THE($item)} back into your hand.
 

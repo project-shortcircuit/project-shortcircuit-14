@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-borer-dataset-1 = Alcyonium
 names-borer-dataset-2 = Anomia
 names-borer-dataset-3 = Aphrodita

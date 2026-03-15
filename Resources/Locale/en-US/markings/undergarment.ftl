@@ -1,3 +1,11 @@
+# SPDX-FileCopyrightText: 2025 Huaqas <zacswebb@gmail.com>
+# SPDX-FileCopyrightText: 2025 Minerva <218184747+mnva0@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 qrwas <aleksandr.vernigora93@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 marking-UndergarmentTopTanktop = Tanktop
 marking-UndergarmentTopTanktop-tanktop = Tanktop
 marking-UndergarmentTopBinder = Binder

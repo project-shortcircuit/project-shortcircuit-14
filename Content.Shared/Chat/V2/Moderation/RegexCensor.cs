@@ -1,4 +1,9 @@
-﻿using System.Text.RegularExpressions;
+// SPDX-FileCopyrightText: 2024 Hannah Giovanna Dawson <karakkaraz@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using System.Text.RegularExpressions;
 
 namespace Content.Shared.Chat.V2.Moderation;
 

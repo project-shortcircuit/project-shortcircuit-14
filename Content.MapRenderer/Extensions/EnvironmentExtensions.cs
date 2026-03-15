@@ -1,4 +1,10 @@
-﻿#nullable enable
+// SPDX-FileCopyrightText: 2022 Javier Guardia Fernández <DrSmugleaf@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2022 github-actions <github-actions@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+#nullable enable
 using System;
 using System.Diagnostics.CodeAnalysis;
 

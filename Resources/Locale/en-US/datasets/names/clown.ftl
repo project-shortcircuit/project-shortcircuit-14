@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-clown-dataset-1 = Gigglesworth
 names-clown-dataset-2 = Honkel the III
 names-clown-dataset-3 = Goose McSunny

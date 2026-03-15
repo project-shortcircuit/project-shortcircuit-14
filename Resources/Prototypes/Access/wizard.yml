@@ -1,3 +1,8 @@
-﻿- type: accessLevel
+# SPDX-FileCopyrightText: 2024 keronshb <54602815+keronshb@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+- type: accessLevel
   id: Wizard
   name: id-card-access-level-wizard

@@ -1,3 +1,12 @@
+# SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2023 metalgearsloth <metalgearsloth@gmail.com>
+# SPDX-FileCopyrightText: 2024 Ed <96445749+TheShuEd@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 Red <96445749+TheShuEd@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 cmd-weatherremove-desc = Remove specific weather from map.
 cmd-weatherset-desc = Removes all weather except the specified one. If the specified weather does not exist on the map, it adds it.
 cmd-weatheradd-desc = Add specific weather to map.

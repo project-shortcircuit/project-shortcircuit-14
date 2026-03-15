@@ -1,4 +1,10 @@
-﻿[assembly: Parallelizable(ParallelScope.Children)]
+// SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+// SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+[assembly: Parallelizable(ParallelScope.Children)]
 
 // I don't know why this parallelism limit was originally put here.
 // I *do* know that I tried removing it, and ran into the following .NET runtime problem:

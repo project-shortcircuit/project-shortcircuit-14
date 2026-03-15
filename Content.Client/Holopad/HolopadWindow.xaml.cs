@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2024 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Client.Popups;
 using Content.Client.UserInterface.Controls;
 using Content.Shared.Access.Systems;

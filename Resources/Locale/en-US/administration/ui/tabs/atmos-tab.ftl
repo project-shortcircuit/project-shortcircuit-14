@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 MetalSage <74924875+MetalSage@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 admin-ui-atmos-add = Add Atmos
 admin-ui-atmos-add-gas = Add Gas
 admin-ui-atmos-fill-gas = Fill Gas

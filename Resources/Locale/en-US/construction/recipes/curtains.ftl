@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Quasr <182430031+quasr-9@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 construction-recipe-curtains-cloth = curtains (cloth)
 construction-recipe-curtains-black = curtains (black)
 construction-recipe-curtains-blue = curtains (blue)

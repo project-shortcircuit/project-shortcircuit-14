@@ -1,4 +1,9 @@
-﻿using Content.Shared.Power.Components;
+// SPDX-FileCopyrightText: 2025 Centronias <me@centronias.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared.Power.Components;
 using Content.Shared.Weapons.Ranged.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;

@@ -1,4 +1,11 @@
-﻿<Document>
+<!--
+SPDX-FileCopyrightText: 2025 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<Document>
 # Pumps
   Pumps are the primary way of actively moving gasses through a [textlink="pipenet." link="PipeNetworks"]
   They take gas from one side and push it to the other.

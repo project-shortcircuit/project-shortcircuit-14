@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 lzk <124214523+lzk228@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 traitor-corporations-dataset-1 = CyberSun Industries
 traitor-corporations-dataset-2 = Gorlex Marauders
 traitor-corporations-dataset-3 = MI13

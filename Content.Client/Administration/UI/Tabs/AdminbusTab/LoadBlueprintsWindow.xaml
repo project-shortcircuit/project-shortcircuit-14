@@ -1,4 +1,12 @@
-﻿<DefaultWindow
+<!--
+SPDX-FileCopyrightText: 2022 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 MetalSage <74924875+MetalSage@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<DefaultWindow
     xmlns="https://spacestation14.io" Title="{Loc admin-ui-blueprint-load}">
     <BoxContainer Orientation="Vertical">
         <BoxContainer Orientation="Horizontal">

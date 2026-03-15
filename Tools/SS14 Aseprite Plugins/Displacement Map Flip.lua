@@ -1,3 +1,9 @@
+-- SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+-- SPDX-FileCopyrightText: 2025 Southbridge <7013162+southbridge-fur@users.noreply.github.com>
+-- SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+--
+-- SPDX-License-Identifier: MIT
+
 local sprite = app.editor.sprite
 local cel = app.cel
 

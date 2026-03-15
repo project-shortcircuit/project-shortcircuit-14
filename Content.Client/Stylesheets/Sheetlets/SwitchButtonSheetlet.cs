@@ -1,4 +1,9 @@
-﻿using Content.Client.Stylesheets.SheetletConfigs;
+// SPDX-FileCopyrightText: 2026 Absotively <jen@jenpollock.ca>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Client.Stylesheets.SheetletConfigs;
 using Content.Client.Stylesheets.Stylesheets;
 using Content.Client.UserInterface.Controls;
 using Robust.Client.UserInterface;

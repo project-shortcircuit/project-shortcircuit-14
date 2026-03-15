@@ -1,3 +1,11 @@
+<!--
+SPDX-FileCopyrightText: 2024 Julian Giebel <juliangiebel@live.de>
+SPDX-FileCopyrightText: 2025 Brandon Li <48413902+aspiringLich@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 <Control xmlns="https://spacestation14.io"
          xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
          xmlns:system="clr-namespace:System;assembly=System.Runtime"

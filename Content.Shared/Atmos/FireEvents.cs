@@ -1,4 +1,9 @@
-﻿using Content.Shared.Inventory;
+// SPDX-FileCopyrightText: 2025 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared.Inventory;
 using Content.Shared.Nutrition.Components;
 
 namespace Content.Shared.Atmos;

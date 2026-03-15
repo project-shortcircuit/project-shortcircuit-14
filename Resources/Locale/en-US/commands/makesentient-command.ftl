@@ -1,2 +1,7 @@
-﻿cmd-makesentient-desc = Makes an entity sentient (able to be controlled by a player).
+# SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+cmd-makesentient-desc = Makes an entity sentient (able to be controlled by a player).
 cmd-makesentient-help = Usage: makesentient <entityUid>

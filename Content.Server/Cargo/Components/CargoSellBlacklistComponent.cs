@@ -1,4 +1,10 @@
-﻿namespace Content.Server.Cargo.Components;
+// SPDX-FileCopyrightText: 2022 Kara <lunarautomaton6@gmail.com>
+// SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+namespace Content.Server.Cargo.Components;
 
 /// <summary>
 ///     Marks an entity as unable to be sold through the cargo shuttle.

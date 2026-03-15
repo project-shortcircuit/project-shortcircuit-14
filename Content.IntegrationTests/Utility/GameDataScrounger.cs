@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
+//
+// SPDX-License-Identifier: MIT
+
 #nullable enable
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;

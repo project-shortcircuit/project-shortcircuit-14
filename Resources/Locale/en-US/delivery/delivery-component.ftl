@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 delivery-recipient-examine = This one is meant for {$recipient}, {$job}.
 delivery-already-opened-examine = It was already opened.
 delivery-earnings-examine = Delivering this will earn the station [color=yellow]{$spesos}[/color] spesos.

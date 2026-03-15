@@ -1,3 +1,13 @@
+<!--
+SPDX-FileCopyrightText: 2023 Vera Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Errant <35878406+Errant-4@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Simon <63975668+Simyon264@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Absotively <jen@jenpollock.ca>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 <DefaultWindow Title="{Loc 'instruments-component-channels-menu'}" MinSize="250 350" xmlns="https://spacestation14.io"
                xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls">
     <BoxContainer Orientation="Vertical" HorizontalExpand="true" VerticalExpand="true" Align="Center">

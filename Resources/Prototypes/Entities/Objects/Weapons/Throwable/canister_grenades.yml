@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2025 Nox <nebulousnox38@gmail.com>
+# SPDX-FileCopyrightText: 2026 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 Rachel Lowe <60523642+11BelowStudio@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 - type: entity
   parent: [VolatileGrenadeBase, TimerGrenadeBase, BaseSecurityContraband ]
   id: SmokeGrenade

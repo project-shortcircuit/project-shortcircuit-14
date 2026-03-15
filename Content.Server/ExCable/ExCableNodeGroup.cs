@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Server.NodeContainer.NodeGroups;
 using Content.Shared.NodeContainer.NodeGroups;
 using Content.Server.Power.Components;

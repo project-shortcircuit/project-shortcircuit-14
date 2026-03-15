@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 Tayrtahn <tayrtahn@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 accent-parrot-squawk-1 = SQUAWK!
 accent-parrot-squawk-2 = SQUAAAWK!
 accent-parrot-squawk-3 = AWWK!

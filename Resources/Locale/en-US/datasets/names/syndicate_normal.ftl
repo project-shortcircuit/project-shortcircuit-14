@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-syndicate-normal-dataset-1 = Alfa
 names-syndicate-normal-dataset-2 = Bravo
 names-syndicate-normal-dataset-3 = Charlie

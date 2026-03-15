@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Samuka <47865393+Samuka-C@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 borg-module-fit = This module fits into {$types}.
 
 borg-type-all = [color=white]any cyborg[/color]

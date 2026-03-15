@@ -1,4 +1,9 @@
-﻿using Robust.Server.Containers;
+// SPDX-FileCopyrightText: 2024 Vigers Ray <60344369+VigersRay@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Robust.Server.Containers;
 
 namespace Content.Server.NPC.HTN.Preconditions;
 

@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 MODERN <87994977+modern-nm@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 cargoproduct-category-name-armory = Armory
 cargoproduct-category-name-atmospherics = Atmospherics
 cargoproduct-category-name-cargo = Cargo

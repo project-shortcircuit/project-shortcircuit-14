@@ -1,4 +1,9 @@
-﻿namespace Content.Shared.Actions.Events;
+// SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+namespace Content.Shared.Actions.Events;
 
 public sealed partial class InvisibleWallActionEvent : InstantActionEvent
 {

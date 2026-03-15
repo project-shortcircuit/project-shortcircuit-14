@@ -1,4 +1,9 @@
-﻿cmd-powerstat-desc = Shows statistics for pow3r.
+# SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+cmd-powerstat-desc = Shows statistics for pow3r.
 cmd-powerstat-help = Usage: powerstat
 cmd-powerstat-output = Networks:   {$networks}
                        Loads:      {$loads}

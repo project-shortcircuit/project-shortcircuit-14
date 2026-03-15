@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Server.Chat.Managers;
 using Content.Shared.Chat;
 using Content.Shared.Chat.Prototypes;

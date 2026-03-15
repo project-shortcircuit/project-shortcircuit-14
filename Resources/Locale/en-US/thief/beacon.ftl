@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 Ed <96445749+TheShuEd@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 thief-fulton-set = Delivery coordinates are set.
 thief-fulton-clear = Delivery coordinates cleared.
 

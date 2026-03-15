@@ -1,4 +1,9 @@
-﻿using Content.Server.Power.EntitySystems;
+// SPDX-FileCopyrightText: 2024 Julian Giebel <juliangiebel@live.de>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Server.Power.EntitySystems;
 using Content.Shared.Power;
 
 namespace Content.Server.Power.Components;

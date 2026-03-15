@@ -1,4 +1,9 @@
-﻿cmd-addrole-desc = Adds a role to a player's mind.
+# SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+cmd-addrole-desc = Adds a role to a player's mind.
 cmd-addrole-help = Usage: addrole <session ID> <role>
 cmd-addrole-mind-not-found = Can't find that mind.
 cmd-addrole-role-not-found = Can't find that role.

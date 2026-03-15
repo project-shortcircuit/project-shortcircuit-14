@@ -1,4 +1,11 @@
-﻿<ScrollContainer xmlns="https://spacestation14.io"
+<!--
+SPDX-FileCopyrightText: 2021 ShadowCommander <10494922+ShadowCommander@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<ScrollContainer xmlns="https://spacestation14.io"
                  HScrollEnabled="False"
                  HorizontalExpand="True"
                  VerticalExpand="True">

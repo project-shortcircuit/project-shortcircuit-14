@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2025 pathetic meowmeow <uhhadd@gmail.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 <cartridges:NanoTaskUiFragment xmlns:cartridges="clr-namespace:Content.Client.CartridgeLoader.Cartridges"
                                xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
                                xmlns="https://spacestation14.io" Margin="1 0 2 0">

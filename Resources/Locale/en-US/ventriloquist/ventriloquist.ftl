@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Alpaccalypse <21291379+Alpaccalypse@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 ventriloquist-puppet-insert-hand = You insert your hand into the puppet.
 ventriloquist-puppet-remove-hand = You remove your hand from the puppet.
 

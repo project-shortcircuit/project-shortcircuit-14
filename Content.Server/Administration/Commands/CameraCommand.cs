@@ -1,4 +1,9 @@
-﻿using Content.Server.Administration.UI;
+// SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Server.Administration.UI;
 using Content.Server.EUI;
 using Content.Shared.Administration;
 using Robust.Server.Player;

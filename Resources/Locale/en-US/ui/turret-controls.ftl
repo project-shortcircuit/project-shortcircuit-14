@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 chromiumboy <50505512+chromiumboy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 āda <ss.adasts@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Headings
 turret-controls-window-title = Autonomous Defense Control System
 turret-controls-window-turret-status-label = Linked devices [{$count}]

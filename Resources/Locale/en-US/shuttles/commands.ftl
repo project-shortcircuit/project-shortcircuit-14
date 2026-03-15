@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 # FTLdiskburner
 cmd-ftldisk-desc = Creates an FTL coordinates disk to sail to the map the given EntityID is/on
 cmd-ftldisk-help = ftldisk [EntityID]

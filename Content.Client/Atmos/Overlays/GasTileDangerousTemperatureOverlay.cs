@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 InsoPL <lukasz.lindert@protonmail.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Client.Atmos.EntitySystems;
 using Content.Client.Graphics;
 using Content.Shared.Atmos;

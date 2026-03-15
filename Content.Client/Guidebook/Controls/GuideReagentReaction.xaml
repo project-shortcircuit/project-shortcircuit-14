@@ -1,4 +1,13 @@
-﻿<BoxContainer xmlns="https://spacestation14.io"
+<!--
+SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Ciarán Walsh <github@ciaranwal.sh>
+SPDX-FileCopyrightText: 2025 Ed <96445749+TheShuEd@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<BoxContainer xmlns="https://spacestation14.io"
               Orientation="Vertical"
               HorizontalAlignment="Stretch"
               HorizontalExpand="True"

@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+# SPDX-FileCopyrightText: 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 cmd-biome_clear-desc = Clears a biome entirely
 cmd-biome_clear-help = biome_clear <biomecomponent>
 cmd-biome_addlayer-desc = Adds another biome layer

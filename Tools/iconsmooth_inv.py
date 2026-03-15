@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2022 20kdc <asdd2808@gmail.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 #!/usr/bin/env python3
 
 # Copyright (c) 2022 Space Wizards Federation

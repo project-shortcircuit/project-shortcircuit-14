@@ -1,4 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+SPDX-FileCopyrightText: 2017 PJB3005 <pieterjan.briers@gmail.com>
+SPDX-FileCopyrightText: 2018 Pieter-Jan Briers <pieterjan.briers@gmail.com>
+SPDX-FileCopyrightText: 2019 Acruid <shatter66@gmail.com>
+SPDX-FileCopyrightText: 2020 Tyler Young <tyler.young@impromptu.ninja>
+SPDX-FileCopyrightText: 2021 Paul Ritter <ritter.paul1@googlemail.com>
+SPDX-FileCopyrightText: 2021 Swept <sweptwastaken@protonmail.com>
+SPDX-FileCopyrightText: 2023 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+SPDX-FileCopyrightText: 2025 Nikolai Korolev <korolevns98@gmail.com>
+SPDX-FileCopyrightText: 2025 Winkarst <74284083+Winkarst-cpu@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 <!--
 This is a dummy .csproj file to check things like submodules.
 Better this than other errors.

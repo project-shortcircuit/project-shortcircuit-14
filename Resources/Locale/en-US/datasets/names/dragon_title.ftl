@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 mubururu_ <139181059+muburu@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 names-dragon-title-dataset-1 = the Dread
 names-dragon-title-dataset-2 = the Scorchinator
 names-dragon-title-dataset-3 = the Carpmonger

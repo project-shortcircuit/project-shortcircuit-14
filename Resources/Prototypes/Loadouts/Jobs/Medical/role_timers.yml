@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2026 Hyper B <137433177+HyperB1@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+# SPDX-FileCopyrightText: 2026 āda <ss.adasts@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Top level timer for master medical players
 - type: loadoutEffectGroup
   id: SeniorPhysician

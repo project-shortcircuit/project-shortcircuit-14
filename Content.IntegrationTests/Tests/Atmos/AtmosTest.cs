@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2025 psykana <36602558+psykana@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.IntegrationTests.Tests.Interaction;
 using Content.Server.Atmos.Components;
 using Content.Server.Atmos.EntitySystems;

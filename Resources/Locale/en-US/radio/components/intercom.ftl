@@ -1,4 +1,9 @@
-﻿intercom-menu-title = Intercom
+# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
+intercom-menu-title = Intercom
 intercom-channel-label = Channel:
 intercom-button-text-mic = Mic.
 intercom-button-text-speaker = Spkr.

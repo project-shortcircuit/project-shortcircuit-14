@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 Artxmisery <78118840+Artxmisery@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Robust.Shared.GameStates;
 
 namespace Content.Shared.Trigger.Components.Triggers;

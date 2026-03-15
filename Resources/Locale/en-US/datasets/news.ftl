@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 news-dataset-1 = Tree stuck in tajaran; firefighters baffled.
 news-dataset-2 = Armadillos want aardvarks removed from dictionary claims 'here first'.
 news-dataset-3 = Angel found dancing on pinhead ordered to stop; cited for public nuisance.

@@ -1,4 +1,9 @@
-﻿namespace Content.Shared.Stacks;
+// SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+//
+// SPDX-License-Identifier: MIT
+
+namespace Content.Shared.Stacks;
 
 /// <summary>
 ///     Raised on the original stack entity when it is split to create another.
