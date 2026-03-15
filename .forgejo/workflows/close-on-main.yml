@@ -1,3 +1,5 @@
+name: Close PRs opened on main branch
+
 on:
   pull_request_target:
     types: [ opened, ready_for_review ]
@@ -10,6 +12,7 @@ jobs:
     steps:
     - name: Close PR on main branch
       env:
+        FJ_SERVER: ${{ forgejo.server_url }}
         FJ_TOKEN: ${{ forgejo.token }}
         PR_NUMBER: ${{ forgejo.event.pull_request.number }}
       run: |
