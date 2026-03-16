@@ -246,14 +246,13 @@ def process_git_log_output(output, author_timestamps):
 
         commit_hash, timestamp_str, author_name, author_email, body = parts
         print(f"Processing commit {commit_hash[:8]} by {author_name} <{author_email}>")
-
         try:
             timestamp = int(timestamp_str)
         except ValueError:
             continue
 
         # Add main author
-        if author_name and author_email and author_name.strip() != "Unknown" and author_name.strip().lower() != "funkystationbot":
+        if author_name and author_email and author_name.strip() != "Unknown" and author_name.strip().lower() not in ["project-shortcircuit", "shortcircuit-bot"]:
             author_key = f"{author_name.strip()} <{author_email.strip()}>"
             author_timestamps[author_key].append(timestamp)
 
