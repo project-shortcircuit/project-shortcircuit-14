@@ -12,7 +12,6 @@ on:
       - 'RobustToolbox'
 
 jobs:
-  steps:
   this_aint_right:
     name: Submodule update in pr found
     runs-on: codeberg-tiny

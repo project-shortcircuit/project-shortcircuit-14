@@ -70,7 +70,7 @@ jobs:
     name: Build & Test Debug
     needs:
       - build
-    runs-on: codeberg-medium
+    runs-on: codeberg-tiny
     steps:
       - name: CI succeeded
         run: exit 0
