@@ -26,7 +26,7 @@ jobs:
   yaml-schema-validation:
     name: YAML map schema validator
     if: github.actor != 'shortcircuit-bot' && github.event.pull_request.draft == false
-    runs-on: ubuntu-latest
+    runs-on: codeberg-small
     steps:
     - uses: actions/checkout@v4.2.2
     - name: Setup Submodule

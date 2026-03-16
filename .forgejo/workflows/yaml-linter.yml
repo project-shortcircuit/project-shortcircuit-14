@@ -30,7 +30,7 @@ jobs:
   build:
     name: YAML Linter
     if: github.actor != 'shortcircuit-bot' && github.event.pull_request.draft == false
-    runs-on: ubuntu-latest
+    runs-on: codeberg-medium
     steps:
       - uses: actions/checkout@v4.2.2
       - name: Setup submodule
