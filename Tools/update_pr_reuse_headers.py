@@ -260,7 +260,7 @@ def process_git_log_output(output, author_timestamps):
         for match in co_author_regex.finditer(body):
             co_author_name = match.group(1).strip()
             co_author_email = match.group(2).strip()
-            if co_author_name and co_author_email and co_author_name.strip() != "Unknown" and co_author_name.strip().lower() != "funkystationbot":
+            if co_author_name and co_author_email and co_author_name.strip() != "Unknown" and co_author_name.strip().lower() !not in ["project-shortcircuit", "shortcircuit-bot"]:
                 co_author_key = f"{co_author_name} <{co_author_email}>"
                 author_timestamps[co_author_key].append(timestamp)
 
