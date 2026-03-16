@@ -1,4 +1,8 @@
-﻿
+// SPDX-FileCopyrightText: 2026 Velken <8467292+Velken@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 

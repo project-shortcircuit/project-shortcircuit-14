@@ -1,4 +1,8 @@
-﻿namespace Content.Server.Silicons.Laws;
+// SPDX-FileCopyrightText: 2026 Velken <8467292+Velken@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+namespace Content.Server.Silicons.Laws;
 
 public sealed class IonLawLocalizationSystem : EntitySystem
 {

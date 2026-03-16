@@ -1,4 +1,8 @@
-﻿using Content.Server.StationRecords.Systems;
+// SPDX-FileCopyrightText: 2026 Velken <8467292+Velken@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Server.StationRecords.Systems;
 using Content.Shared.Dataset;
 using Content.Shared.Station;
 using Content.Shared.StationRecords;

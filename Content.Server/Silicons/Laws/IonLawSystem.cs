@@ -1,4 +1,8 @@
-﻿using Content.Shared.Dataset;
+// SPDX-FileCopyrightText: 2026 Velken <8467292+Velken@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Shared.Dataset;
 using Content.Shared.Silicons.Laws;
 using Content.Shared.Station;
 using Content.Shared.StationRecords;
