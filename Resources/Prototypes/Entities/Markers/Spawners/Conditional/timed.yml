@@ -20,7 +20,6 @@
         - sprite: Mobs/Species/Human/parts.rsi
           state: full
         - state: ai
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - MobSpirate
@@ -41,7 +40,6 @@
       - sprite: Mobs/Aliens/Xenos/burrower.rsi
         state: crit
       - state: ai
-    - type: Timer
     - type: TimedSpawner
       prototypes:
       - MobXeno
@@ -61,7 +59,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - MobMouse
