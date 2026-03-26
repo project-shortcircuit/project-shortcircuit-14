@@ -26,6 +26,7 @@
 // SPDX-FileCopyrightText: 2024 Whisper <121047731+QuietlyWhisper@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 M4rchy-S <89603088+M4rchy-S@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 
