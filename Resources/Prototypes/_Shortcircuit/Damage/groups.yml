@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+#
+# SPDX-License-Identifier: MIT
+
 - type: damageGroup
   id: SCCTechnical
   name: scc-damage-group-technical
