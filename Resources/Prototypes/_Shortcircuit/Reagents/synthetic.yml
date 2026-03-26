@@ -13,7 +13,7 @@
   metamorphicChangeColor: false
   recognizable: true
   standsout: true
-  physicalDesc: reagent-physical-desc-ferrous # FIXME: come up with a different description for this
+  physicalDesc: scc-reagent-physical-desc-synthetic
   metabolisms:
     Bloodstream:
       effects:
