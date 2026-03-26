@@ -6,12 +6,12 @@
 # SPDX-License-Identifier: MIT
 
 # These options are kept very sparse to not put emphasis on nudity, and to provide a base for players to feel comfortable with.
-# It's unlikely more will be added to upstream for cosmetic reasons. 
+# It's unlikely more will be added to upstream for cosmetic reasons.
 
 - type: marking
   id: UndergarmentBottomBoxers
   bodyPart: UndergarmentBottom
-  groupWhitelist: [Arachnid, Diona, Human, Moth, Slime]
+  groupWhitelist: [Arachnid, Diona, Human, Moth, Slime, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type: null
@@ -23,7 +23,7 @@
 - type: marking
   id: UndergarmentBottomBriefs
   bodyPart: UndergarmentBottom
-  groupWhitelist: [Arachnid, Diona, Human, Moth, Slime]
+  groupWhitelist: [Arachnid, Diona, Human, Moth, Slime, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type: null
@@ -35,7 +35,7 @@
 - type: marking
   id: UndergarmentBottomSatin
   bodyPart: UndergarmentBottom
-  groupWhitelist: [Arachnid, Diona, Human, Moth, Slime]
+  groupWhitelist: [Arachnid, Diona, Human, Moth, Slime, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type: null
@@ -47,7 +47,7 @@
 - type: marking
   id: UndergarmentTopBra
   bodyPart: UndergarmentTop
-  groupWhitelist: [Arachnid, Diona, Human, Moth, Reptilian, Slime]
+  groupWhitelist: [Arachnid, Diona, Human, Moth, Reptilian, Slime, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type: null
@@ -59,7 +59,7 @@
 - type: marking
   id: UndergarmentTopSportsbra
   bodyPart: UndergarmentTop
-  groupWhitelist: [Arachnid, Diona, Human, Moth, Reptilian, Slime]
+  groupWhitelist: [Arachnid, Diona, Human, Moth, Reptilian, Slime, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type: null
@@ -71,7 +71,7 @@
 - type: marking
   id: UndergarmentTopBinder
   bodyPart: UndergarmentTop
-  groupWhitelist: [Arachnid, Diona, Human, Moth, Reptilian, Slime]
+  groupWhitelist: [Arachnid, Diona, Human, Moth, Reptilian, Slime, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type: null
@@ -83,7 +83,7 @@
 - type: marking
   id: UndergarmentTopTanktop
   bodyPart: UndergarmentTop
-  groupWhitelist: [Arachnid, Diona, Human, Moth, Reptilian, Slime]
+  groupWhitelist: [Arachnid, Diona, Human, Moth, Reptilian, Slime, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type: null
@@ -295,4 +295,3 @@
   sprites:
   - sprite: Mobs/Customization/undergarments.rsi
     state: tanktop_vulpkanin
-    
