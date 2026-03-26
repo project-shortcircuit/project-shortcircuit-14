@@ -44,7 +44,11 @@ public sealed partial class RepairableSystem : EntitySystem
             return;
 
         var totalDamage = _damageableSystem.GetTotalDamage((ent.Owner, damageable));
-        if (totalDamage == 0)
+        var totalBloodloss = 0.0;
+        if (TryComp(ent.Owner, out BloodstreamComponent? bloodstream))
+            totalBloodloss = bloodstream.BleedAmount;
+
+        if (totalDamage == 0 && totalBloodloss == 0)
             return;
 
         if (ent.Comp.DamageValue != null)
@@ -54,7 +58,7 @@ public sealed partial class RepairableSystem : EntitySystem
         else
             RepairAllDamage((ent, damageable), args.User);
 
-        if (TryComp(ent.Owner, out BloodstreamComponent? bloodstream))
+        if (bloodstream != null)
         {
             if (ent.Comp.BleedModifier != null)
             {
@@ -67,8 +71,10 @@ public sealed partial class RepairableSystem : EntitySystem
         }
 
         totalDamage = _damageableSystem.GetTotalDamage((ent.Owner, damageable));
+        if (bloodstream != null)
+            totalBloodloss = bloodstream.BleedAmount;
 
-        args.Repeat = ent.Comp.AutoDoAfter && totalDamage > 0;
+        args.Repeat = ent.Comp.AutoDoAfter && (totalDamage > 0 || totalBloodloss > 0);
         args.Args.Event.Repeat = args.Repeat;
         args.Handled = true;
 
@@ -124,8 +130,12 @@ public sealed partial class RepairableSystem : EntitySystem
         if (args.Handled)
             return;
 
+        var bleeding = false;
+        if (TryComp(ent.Owner, out BloodstreamComponent? bloodstream))
+            bleeding = bloodstream.BleedAmount > 0;
+
         // Only try repair the target if it is damaged
-        if (_damageableSystem.GetTotalDamage(ent.Owner) == 0)
+        if (_damageableSystem.GetTotalDamage(ent.Owner) == 0 && !bleeding)
             return;
 
         float delay = ent.Comp.DoAfterDelay;
