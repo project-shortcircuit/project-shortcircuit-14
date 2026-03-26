@@ -10,6 +10,8 @@
 using Content.Shared.Administration.Logs;
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
+using Content.Shared.Body.Systems;
+using Content.Shared.Body.Components;
 using Content.Shared.Database;
 using Content.Shared.DoAfter;
 using Content.Shared.Interaction;
@@ -23,6 +25,7 @@ public sealed partial class RepairableSystem : EntitySystem
 {
     [Dependency] private readonly SharedToolSystem _toolSystem = default!;
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
+    [Dependency] private readonly SharedBloodstreamSystem _bloodstreamSystem = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
 
@@ -50,6 +53,18 @@ public sealed partial class RepairableSystem : EntitySystem
             RepairSomeDamage((ent, damageable), ent.Comp.Damage, args.User);
         else
             RepairAllDamage((ent, damageable), args.User);
+
+        if (TryComp(ent.Owner, out BloodstreamComponent? bloodstream))
+        {
+            if (ent.Comp.BleedModifier != null)
+            {
+                _bloodstreamSystem.TryModifyBleedAmount(ent.Owner, ent.Comp.BleedModifier.Value);
+            }
+            else
+            {
+                _bloodstreamSystem.TryModifyBleedAmount(ent.Owner, -bloodstream.BleedAmount);
+            }
+        }
 
         totalDamage = _damageableSystem.GetTotalDamage((ent.Owner, damageable));
 

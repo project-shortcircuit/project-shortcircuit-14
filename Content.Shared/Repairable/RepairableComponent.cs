@@ -39,6 +39,15 @@ public sealed partial class RepairableComponent : Component
     public float? DamageValue;
 
     /// <summary>
+    /// Amount of bleeding to be applied to the entity.
+    /// </summary>
+    /// <remarks>
+    /// in order to remove bleeding the value has to be negative.
+    /// </remrks>
+    [DataField, AutoNetworkedField]
+    public float? BleedModifier;
+
+    /// <summary>
     /// Cost of fuel used to repair this device.
     /// </summary>
     [DataField, AutoNetworkedField]
