@@ -116,6 +116,7 @@
     allowRevives: true
   - type: Repairable
     damageValue: -5
+    bleedModifier: -3
     doAfterDelay: 1
     fuelCost: 0.25
   - type: Barotrauma
