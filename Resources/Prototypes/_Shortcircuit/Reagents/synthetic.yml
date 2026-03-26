@@ -1,0 +1,27 @@
+- type: reagent
+  id: SCCBlueBlood
+  name: scc-reagent-name-blue-blood
+  group: Biological
+  desc: scc-reagent-desc-blue-blood
+  flavor: metallic
+  color: "#2e70c7"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/bloodglass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  recognizable: true
+  standsout: true
+  physicalDesc: reagent-physical-desc-ferrous # FIXME: come up with a different description for this
+  metabolisms:
+    Bloodstream:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 0.2
+  footstepSound:
+    collection: FootstepBlood
+    params:
+      volume: 6

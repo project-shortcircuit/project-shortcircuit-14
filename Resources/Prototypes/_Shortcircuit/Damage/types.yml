@@ -1,0 +1,5 @@
+- type: damageType
+  id: SCCUndervoltage
+  name: scc-damage-type-undervoltage
+  armorCoefficientPrice: 1
+  armorFlatPrice: 1

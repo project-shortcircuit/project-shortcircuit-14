@@ -11,7 +11,7 @@
 - type: marking
   id: CatEars
   bodyPart: Special
-  groupWhitelist: [Human]
+  groupWhitelist: [Human, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type:
@@ -33,7 +33,7 @@
 - type: marking
   id: CatTail
   bodyPart: Tail
-  groupWhitelist: [Human]
+  groupWhitelist: [Human, SCCAndroid] # Shortcircuit: allow for androids
   coloring:
     default:
       type:

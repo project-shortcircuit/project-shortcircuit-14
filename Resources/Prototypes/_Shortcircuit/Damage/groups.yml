@@ -1,0 +1,5 @@
+- type: damageGroup
+  id: SCCTechnical
+  name: scc-damage-group-technical
+  damageTypes:
+  - SCCUndervoltage

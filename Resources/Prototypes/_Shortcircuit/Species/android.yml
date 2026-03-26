@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: MIT
+
+- type: species
+  id: SCCAndroid
+  name: scc-species-name-android
+  roundStart: true
+  prototype: SCCMobAndroid
+  dollPrototype: SCCAppearanceAndroid
+  skinColoration: Hues
+  sexes:
+  - Unsexed

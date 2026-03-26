@@ -1,0 +1,230 @@
+- type: markingsGroup
+  parent: Undergarments
+  id: SCCAndroid
+  limits:
+    enum.HumanoidVisualLayers.Hair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.FacialHair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Chest:
+      limit: 2
+      required: false
+    enum.HumanoidVisualLayers.Snout:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Tail:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Special:
+      limit: 1
+      required: false
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: SCCAppearanceAndroid
+  name: android appearance
+  components:
+  - type: Inventory
+  - type: InitialBody
+    organs:
+      Torso: SCCOrganAndroidTorso
+      Head: SCCOrganAndroidHead
+      ArmLeft: SCCOrganAndroidArmLeft
+      ArmRight: SCCOrganAndroidArmRight
+      HandRight: SCCOrganAndroidHandRight
+      HandLeft: SCCOrganAndroidHandLeft
+      LegLeft: SCCOrganAndroidLegLeft
+      LegRight: SCCOrganAndroidLegRight
+      FootLeft: SCCOrganAndroidFootLeft
+      FootRight: SCCOrganAndroidFootRight
+      Brain: SCCOrganAndroidBrain
+      Eyes: SCCOrganAndroidEyes
+      Tongue: SCCOrganAndroidTongue
+      # Appendix: OrganAndroidAppendix
+      Ears: SCCOrganAndroidEars
+      # Lungs: OrganAndroidLungs
+      # Heart: OrganAndroidHeart
+      # Stomach: OrganAndroidStomach
+      # Liver: OrganAndroidLiver
+      # Kidneys: OrganAndroidKidneys
+  - type: HumanoidProfile
+    species: SCCAndroid
+
+- type: entity
+  parent:
+  - SCCAppearanceAndroid
+  - BaseSpeciesMob
+  - MobBloodstream
+  id: SCCMobAndroid
+  name: Urist McDroid
+  components:
+  - type: Damageable
+    damageContainer: Silicon
+  - type: Bloodstream
+    bloodReferenceSolution:
+      reagents:
+      - ReagentId: SCCBlueBlood
+        Quantity: 300
+    bloodlossThreshold: 0.5
+    bloodRefreshAmount: 0
+    bleedReductionAmount: 0
+    chemicalMaxVolume: 0
+    bloodlossDamage:
+      types:
+        SCCUndervoltage: 2
+    bloodlossHealDamage:
+      types:
+        SCCUndervoltage: -10
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Dead
+    stateAlertDict:
+      Alive: BorgHealth
+      Dead: BorgDead
+    showOverlays: false
+    allowRevives: true
+  - type: Repairable
+    damageValue: -5
+    doAfterDelay: 1
+    fuelCost: 0.25
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.60
+  - type: DamageVisuals
+    damageOverlayGroups:
+      Brute:
+        sprite: Mobs/Effects/brute_damage.rsi
+        color: "#2e70c7"
+      Burn:
+        sprite: Mobs/Effects/burn_damage.rsi
+  # TODO
+  #
+  # - type: Butcherable
+  #   spawned:
+  #   - id: FoodMeatHuman
+  #     amount: 5
+
+- type: entity
+  parent: OrganBase
+  id: SCCOrganAndroid
+  abstract: true
+  suffix: android
+
+- type: entity
+  parent: SCCOrganAndroid
+  id: SCCOrganAndroidInternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi # FIXME
+
+- type: entity
+  parent: SCCOrganAndroid
+  id: SCCOrganAndroidExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Shortcircuit/Mobs/Species/Android/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Shortcircuit/Mobs/Species/Android/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: SCCAndroid
+
+- type: entity
+  parent: [ OrganBaseTorso, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidTorso
+
+- type: entity
+  parent: [ OrganBaseHead, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidHead
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.Snout
+
+- type: entity
+  parent: [ OrganBaseArmLeft, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeft, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRight, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidLegLeft
+
+- type: entity
+  parent: [ OrganBaseLegRight, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidLegRight
+
+- type: entity
+  parent: [ OrganBaseFootLeft, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidFootRight
+
+- type: entity
+  parent: [ OrganBaseBrain, SCCOrganAndroidInternal ]
+  id: SCCOrganAndroidBrain
+
+- type: entity
+  parent: [ OrganBaseEyes, SCCOrganAndroidInternal, SCCOrganAndroidExternal ]
+  id: SCCOrganAndroidEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
+
+- type: entity
+  parent: [ OrganBaseTongue, SCCOrganAndroidInternal ]
+  id: SCCOrganAndroidTongue
+
+- type: entity
+  parent: [ OrganBaseEars, SCCOrganAndroidInternal ]
+  id: SCCOrganAndroidEars
