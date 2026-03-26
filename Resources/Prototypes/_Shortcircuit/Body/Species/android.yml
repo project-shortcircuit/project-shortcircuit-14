@@ -98,7 +98,6 @@
     bloodlossThreshold: 0.5
     bloodRefreshAmount: 0
     bleedReductionAmount: 0
-    chemicalMaxVolume: 0
     bloodlossDamage:
       types:
         SCCUndervoltage: 2
