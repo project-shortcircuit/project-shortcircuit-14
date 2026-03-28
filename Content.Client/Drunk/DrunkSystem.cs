@@ -12,6 +12,7 @@ using Content.Shared.StatusEffectNew;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
 using Robust.Shared.Player;
+using Robust.Shared.Random;
 
 namespace Content.Client.Drunk;
 
@@ -19,6 +20,7 @@ public sealed class DrunkSystem : SharedDrunkSystem
 {
     [Dependency] private readonly IPlayerManager _player = default!;
     [Dependency] private readonly IOverlayManager _overlayMan = default!;
+    [Dependency] private readonly IRobustRandom _random = default!;
 
     private DrunkOverlay _overlay = default!;
 
@@ -38,7 +40,10 @@ public sealed class DrunkSystem : SharedDrunkSystem
     private void OnStatusApplied(Entity<DrunkStatusEffectComponent> entity, ref StatusEffectAppliedEvent args)
     {
         if (!_overlayMan.HasOverlay<DrunkOverlay>())
+        {
+            _overlay.Phase = _random.NextFloat(MathF.Tau); // random starting phase for movement effect
             _overlayMan.AddOverlay(_overlay);
+        }
     }
 
     private void OnStatusRemoved(Entity<DrunkStatusEffectComponent> entity, ref StatusEffectRemovedEvent args)
@@ -56,6 +61,7 @@ public sealed class DrunkSystem : SharedDrunkSystem
     private void OnPlayerAttached(Entity<DrunkStatusEffectComponent> entity, ref StatusEffectRelayedEvent<LocalPlayerAttachedEvent> args)
     {
         _overlayMan.AddOverlay(_overlay);
+
     }
 
     private void OnPlayerDetached(Entity<DrunkStatusEffectComponent> entity, ref StatusEffectRelayedEvent<LocalPlayerDetachedEvent> args)
