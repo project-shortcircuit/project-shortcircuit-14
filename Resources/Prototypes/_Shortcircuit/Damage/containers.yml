@@ -1,0 +1,6 @@
+- type: damageContainer
+  id: SCCSynthetic
+  supportedGroups:
+    - Brute
+    - Burn
+    - SCCTechnical # Shortcircuit
