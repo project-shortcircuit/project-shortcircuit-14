@@ -6,6 +6,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
+using Content.IntegrationTests.Fixtures;
 using Content.Shared.CCVar;
 using Content.Shared.Maps;
 using Robust.Shared.Configuration;
@@ -13,12 +14,12 @@ using Robust.Shared.Prototypes;
 
 namespace Content.IntegrationTests.Tests.Tiles;
 
-public sealed class TileStackRecursionTest
+public sealed class TileStackRecursionTest : GameTest
 {
     [Test]
     public async Task TestBaseTurfRecursion()
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
         var protoMan = pair.Server.ResolveDependency<IPrototypeManager>();
         var cfg = pair.Server.ResolveDependency<IConfigurationManager>();
         var maxTileHistoryLength = cfg.GetCVar(CCVars.TileStackLimit);
@@ -46,7 +47,6 @@ public sealed class TileStackRecursionTest
                 (possibleTurf, new ProtoId<ContentTileDefinition>(ctdef.ID))));
         }
         Bfs(nodes, edges, maxTileHistoryLength);
-        await pair.CleanReturnAsync();
     }
 
     private void Bfs(List<(ProtoId<ContentTileDefinition>, int)> nodes, List<(ProtoId<ContentTileDefinition>, ProtoId<ContentTileDefinition>)> edges, int depthLimit)

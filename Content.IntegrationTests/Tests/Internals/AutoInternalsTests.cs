@@ -1,9 +1,4 @@
-// SPDX-FileCopyrightText: 2024 Errant <35878406+Errant-4@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2024 Tayrtahn <tayrtahn@gmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
+using Content.IntegrationTests.Fixtures;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Body.Systems;
 using Content.Server.Station.Systems;
@@ -13,12 +8,12 @@ namespace Content.IntegrationTests.Tests.Internals;
 
 [TestFixture]
 [TestOf(typeof(InternalsSystem))]
-public sealed class AutoInternalsTests
+public sealed class AutoInternalsTests : GameTest
 {
     [Test]
     public async Task TestInternalsAutoActivateInSpaceForStationSpawn()
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
         var server = pair.Server;
 
         var testMap = await pair.CreateTestMap();
@@ -37,14 +32,12 @@ public sealed class AutoInternalsTests
 
             server.EntMan.DeleteEntity(dummy);
         });
-
-        await pair.CleanReturnAsync();
     }
 
     [Test]
     public async Task TestInternalsAutoActivateInSpaceForEntitySpawn()
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
         var server = pair.Server;
 
         var testMap = await pair.CreateTestMap();
@@ -61,8 +54,6 @@ public sealed class AutoInternalsTests
 
             server.EntMan.DeleteEntity(dummy);
         });
-
-        await pair.CleanReturnAsync();
     }
 
     [TestPrototypes]

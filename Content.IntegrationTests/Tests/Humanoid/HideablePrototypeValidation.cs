@@ -5,6 +5,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
+using Content.IntegrationTests.Fixtures;
 using Content.Shared.Body;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Humanoid;
@@ -13,13 +14,12 @@ using Robust.Shared.Prototypes;
 namespace Content.IntegrationTests.Tests.Humanoid;
 
 [TestFixture]
-public sealed class HideablePrototypeValidation
+public sealed class HideablePrototypeValidation : GameTest
 {
     [Test]
     public async Task NoOrgansWithoutClothing()
     {
-        await using var pair = await PoolManager.GetServerClient();
-
+        var pair = Pair;
         var requirements = new Dictionary<Enum, HashSet<EntProtoId>>();
         foreach (var (proto, component) in pair.GetPrototypesWithComponent<VisualOrganMarkingsComponent>())
         {
@@ -47,14 +47,12 @@ public sealed class HideablePrototypeValidation
         {
             Assert.That(provided, Does.Contain(key), $"No clothing will hide {key} that can be hidden on {string.Join(", ", requirement.Select(it => it.Id))}");
         }
-
-        await pair.CleanReturnAsync();
     }
 
     [Test]
     public async Task NoClothingWithoutOrgans()
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
 
         var requirements = new Dictionary<Enum, HashSet<EntProtoId>>();
         foreach (var (proto, component) in pair.GetPrototypesWithComponent<HideLayerClothingComponent>())
@@ -79,7 +77,5 @@ public sealed class HideablePrototypeValidation
         {
             Assert.That(provided, Does.Contain(key), $"No organ will hide {key} that can be hidden by {string.Join(", ", requirement.Select(it => it.Id))}");
         }
-
-        await pair.CleanReturnAsync();
     }
 }

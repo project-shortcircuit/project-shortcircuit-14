@@ -5,13 +5,14 @@
 // SPDX-License-Identifier: MIT
 
 using System.Linq;
+using Content.IntegrationTests.Fixtures;
 using Content.IntegrationTests.Utility;
 using Content.Shared.Damage.Components;
 using Content.Shared.FixedPoint;
 
 namespace Content.IntegrationTests.Tests.Damageable;
 
-public sealed class StaminaComponentTest
+public sealed class StaminaComponentTest : GameTest
 {
     private static string[] _entitiesWithStamina = GameDataScrounger.EntitiesWithComponent("Stamina");
 
@@ -21,7 +22,7 @@ public sealed class StaminaComponentTest
     [Description("Ensures every entity with Stamina has a valid stamina configuration.")]
     public async Task ValidateStamina(string protoKey)
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
         var server = pair.Server;
         var protoMan = server.ProtoMan;
 
@@ -52,7 +53,5 @@ public sealed class StaminaComponentTest
 #pragma warning restore NUnit2041
             }
         });
-
-        await pair.CleanReturnAsync();
     }
 }

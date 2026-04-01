@@ -29,7 +29,7 @@ public sealed partial class MindTests
     [Test]
     public async Task TestGhostsCanReconnect()
     {
-        await using var pair = await SetupPair();
+        var pair = await SetupPair();
         var entMan = pair.Server.ResolveDependency<IEntityManager>();
         var mind = GetMind(pair);
 
@@ -44,8 +44,6 @@ public sealed partial class MindTests
             Assert.That(entMan.HasComponent<GhostComponent>(mind.Comp.OwnedEntity));
             Assert.That(mind.Comp.VisitingEntity, Is.Null);
         });
-
-        await pair.CleanReturnAsync();
     }
 
     // This test will do the following:
@@ -56,7 +54,7 @@ public sealed partial class MindTests
     [Test]
     public async Task TestDeletedCanReconnect()
     {
-        await using var pair = await SetupPair();
+        var pair = await SetupPair();
         var entMan = pair.Server.ResolveDependency<IEntityManager>();
         var mind = GetMind(pair);
 
@@ -94,8 +92,6 @@ public sealed partial class MindTests
             Assert.That(mind.Comp.OwnedEntity, Is.Not.EqualTo(entity));
             Assert.That(entMan.HasComponent<GhostComponent>(mind.Comp.OwnedEntity));
         });
-
-        await pair.CleanReturnAsync();
     }
 
     // This test will do the following:
@@ -106,7 +102,7 @@ public sealed partial class MindTests
     [Test]
     public async Task TestVisitingGhostReconnect()
     {
-        await using var pair = await SetupPair();
+        var pair = await SetupPair();
         var entMan = pair.Server.ResolveDependency<IEntityManager>();
         var mind = GetMind(pair);
 
@@ -122,8 +118,6 @@ public sealed partial class MindTests
             Assert.That(entMan.Deleted(original), Is.False);
             Assert.That(entMan.Deleted(ghost));
         });
-
-        await pair.CleanReturnAsync();
     }
 
     // This test will do the following:
@@ -134,7 +128,7 @@ public sealed partial class MindTests
     [Test]
     public async Task TestVisitingReconnect()
     {
-        await using var pair = await SetupPair(true);
+        var pair = await SetupPair(true);
         var entMan = pair.Server.ResolveDependency<IEntityManager>();
         var mindSys = entMan.System<SharedMindSystem>();
         var mind = GetMind(pair);
@@ -162,8 +156,6 @@ public sealed partial class MindTests
             Assert.That(entMan.Deleted(visiting), Is.False);
             Assert.That(mind.Comp.CurrentEntity, Is.EqualTo(visiting));
         });
-
-        await pair.CleanReturnAsync();
     }
 
     // This test will do the following
@@ -174,7 +166,7 @@ public sealed partial class MindTests
     [Test]
     public async Task TestReconnect()
     {
-        await using var pair = await SetupPair();
+        var pair = await SetupPair();
         var mind = GetMind(pair);
 
         Assert.That(mind.Comp.VisitingEntity, Is.Null);
@@ -190,7 +182,5 @@ public sealed partial class MindTests
         Assert.That(newMind.Comp.VisitingEntity, Is.Null);
         Assert.That(newMind.Comp.OwnedEntity, Is.EqualTo(entity));
         Assert.That(newMind.Id, Is.EqualTo(mind.Id));
-
-        await pair.CleanReturnAsync();
     }
 }

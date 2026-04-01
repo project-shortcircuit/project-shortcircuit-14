@@ -19,6 +19,7 @@
 // SPDX-License-Identifier: MIT
 
 #nullable enable
+using Content.IntegrationTests.Fixtures;
 using Content.Server.NodeContainer.EntitySystems;
 using Content.Server.Power.Components;
 using Content.Server.Power.EntitySystems;
@@ -34,7 +35,7 @@ using Robust.Shared.Timing;
 namespace Content.IntegrationTests.Tests.Power
 {
     [TestFixture]
-    public sealed class PowerTest
+    public sealed class PowerTest : GameTest
     {
         [TestPrototypes]
         private const string Prototypes = @"
@@ -187,7 +188,7 @@ namespace Content.IntegrationTests.Tests.Power
         [Test]
         public async Task TestSimpleSurplus()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -238,8 +239,6 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(supplier.CurrentSupply, Is.EqualTo(loadPower * 2).Within(0.1));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
 
@@ -249,7 +248,7 @@ namespace Content.IntegrationTests.Tests.Power
         [Test]
         public async Task TestSimpleDeficit()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -300,14 +299,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(supplier.CurrentSupply, Is.EqualTo(supplier.MaxSupply).Within(0.1));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task TestSupplyRamp()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -388,14 +385,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(consumer.ReceivedPower, Is.EqualTo(400).Within(tickDev));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task TestBatteryRamp()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -492,8 +487,6 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(currentCharge, Is.EqualTo(startingCharge - spentExpected).Within(tickDev));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
@@ -501,7 +494,7 @@ namespace Content.IntegrationTests.Tests.Power
         {
             // checks that batteries and supplies properly ramp down if the load is disconnected/disabled.
 
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -591,14 +584,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(consumer.ReceivedPower, Is.EqualTo(0).Within(0.1));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task TestSimpleBatteryChargeDeficit()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var gameTiming = server.ResolveDependency<IGameTiming>();
@@ -651,14 +642,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(supplier.CurrentSupply, Is.EqualTo(500).Within(0.1));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task TestFullBattery()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -733,14 +722,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(currentCharge, Is.EqualTo(battery.MaxCharge - expectedSpent).Within(tickDev));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task TestFullBatteryEfficiencyPassThrough()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -815,14 +802,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(currentCharge, Is.EqualTo(battery.MaxCharge - expectedSpent).Within(tickDev));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task TestFullBatteryEfficiencyDemandPassThrough()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -908,8 +893,6 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(supplier.CurrentSupply, Is.EqualTo(supplier.MaxSupply).Within(0.1));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         /// <summary>
@@ -919,7 +902,7 @@ namespace Content.IntegrationTests.Tests.Power
         [Test]
         public async Task TestSupplyPrioritized()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -1008,8 +991,6 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(netBattery2.SupplyRampPosition, Is.EqualTo(500).Within(0.1));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         /// <summary>
@@ -1018,7 +999,7 @@ namespace Content.IntegrationTests.Tests.Power
         [Test]
         public async Task TestBatteriesProportional()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -1099,14 +1080,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(supplier.CurrentSupply, Is.EqualTo(supplier.MaxSupply).Within(0.1));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task TestBatteryEngineCut()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -1181,8 +1160,6 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(netBattery.CurrentSupply, Is.GreaterThan(0));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         /// <summary>
@@ -1191,7 +1168,7 @@ namespace Content.IntegrationTests.Tests.Power
         [Test]
         public async Task TestTerminalNodeGroups()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -1250,14 +1227,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(leftNode.NodeGroup, Is.Not.EqualTo(rightNode.NodeGroup));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task ApcChargingTest()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -1310,14 +1285,12 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(currentCharge, Is.GreaterThan(0)); //apc battery should have gained charge
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
         public async Task ApcNetTest()
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
@@ -1375,8 +1348,6 @@ namespace Content.IntegrationTests.Tests.Power
                     Assert.That(apcNetBattery.CurrentSupply, Is.EqualTo(1).Within(0.1));
                 });
             });
-
-            await pair.CleanReturnAsync();
         }
 
     }

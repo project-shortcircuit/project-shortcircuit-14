@@ -5,6 +5,7 @@
 // SPDX-License-Identifier: MIT
 
 using System.Linq;
+using Content.IntegrationTests.Fixtures;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Prototypes;
@@ -18,7 +19,7 @@ namespace Content.IntegrationTests.Tests;
 /// Tests to see if any entity prototypes specify solution fill level sprites that don't exist.
 /// </summary>
 [TestFixture]
-public sealed class FillLevelSpriteTest
+public sealed class FillLevelSpriteTest : GameTest
 {
     private static readonly string[] HandStateNames = ["left", "right"];
     private static readonly string[] EquipStateNames = ["back", "suitstorage"];
@@ -26,7 +27,7 @@ public sealed class FillLevelSpriteTest
     [Test]
     public async Task FillLevelSpritesExist()
     {
-        await using var pair = await PoolManager.GetServerClient(new PoolSettings { Connected = true });
+        var pair = Pair;
         var client = pair.Client;
         var protoMan = client.ResolveDependency<IPrototypeManager>();
         var componentFactory = client.ResolveDependency<IComponentFactory>();
@@ -107,7 +108,5 @@ public sealed class FillLevelSpriteTest
                 }
             });
         });
-
-        await pair.CleanReturnAsync();
     }
 }

@@ -4,6 +4,7 @@
 // SPDX-License-Identifier: MIT
 
 using System.Linq;
+using Content.IntegrationTests.Fixtures;
 using Content.Shared.Atmos;
 using Content.Shared.Atmos.Components;
 using Robust.Shared.GameObjects;
@@ -13,7 +14,7 @@ namespace Content.IntegrationTests.Tests.Atmos;
 
 [TestFixture]
 [TestOf(typeof(Atmospherics))]
-public sealed class GasArrayTest
+public sealed class GasArrayTest : GameTest
 {
     private const string GasTankTestDummyId = "GasTankTestDummy";
 
@@ -47,7 +48,7 @@ public sealed class GasArrayTest
     [Test]
     public async Task TestGasArrayDeserialization()
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
         var server = pair.Server;
 
         var compFactory = server.ResolveDependency<IComponentFactory>();
@@ -85,6 +86,5 @@ public sealed class GasArrayTest
                 }
             });
         });
-        await pair.CleanReturnAsync();
     }
 }
