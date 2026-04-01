@@ -1,17 +1,4 @@
-// SPDX-FileCopyrightText: 2021 Javier Guardia Fernández <DrSmugleaf@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Vera Aguilera Puerto <gradientvera@outlook.com>
-// SPDX-FileCopyrightText: 2022 wrexbe <81056464+wrexbe@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 TemporalOroboros <TemporalOroboros@gmail.com>
-// SPDX-FileCopyrightText: 2023 Vera Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 Visne <39844191+Visne@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
-//
-// SPDX-License-Identifier: MIT
-
+using Content.IntegrationTests.Fixtures;
 using Content.IntegrationTests.Utility;
 using Content.Server.Construction.Components;
 using Content.Shared.Construction.Prototypes;
@@ -21,7 +8,7 @@ using Robust.Shared.Prototypes;
 namespace Content.IntegrationTests.Tests.Construction
 {
     [TestFixture]
-    public sealed class ConstructionPrototypeTest
+    public sealed class ConstructionPrototypeTest : GameTest
     {
         // discount linter for construction graphs
         // TODO: Create serialization validators for these?
@@ -39,7 +26,7 @@ namespace Content.IntegrationTests.Tests.Construction
         [Description("Tests that a given entity specifies a valid node for construction, and optionally a valid one for deconstruction.")]
         public async Task ConstructionComponentValid(string protoKey)
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
 
             var protoMan = server.ResolveDependency<IPrototypeManager>();
@@ -63,8 +50,6 @@ namespace Content.IntegrationTests.Tests.Construction
                         $"Invalid deconstruction node \"{target}\" on graph \"{graph.ID}\" for construction entity \"{proto.ID}\"!");
                 }
             });
-
-            await pair.CleanReturnAsync();
         }
 
         [Test]
@@ -73,7 +58,7 @@ namespace Content.IntegrationTests.Tests.Construction
         [Description("Tests that a given construction prototype has a valid starting and target node, and a valid path between them.")]
         public async Task ConstructionFormsValidGraph(string protoKey)
         {
-            await using var pair = await PoolManager.GetServerClient();
+            var pair = Pair;
             var server = pair.Server;
 
             var protoMan = server.ResolveDependency<IPrototypeManager>();
@@ -109,7 +94,6 @@ namespace Content.IntegrationTests.Tests.Construction
                     $"The next node ({next.Name}) in the path from the start node ({start}) to the target node ({target}) specified an entity prototype ({next.Entity}) without a ConstructionComponent.");
 #pragma warning restore NUnit2045
             });
-            await pair.CleanReturnAsync();
         }
     }
 }

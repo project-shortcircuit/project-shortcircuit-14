@@ -1,15 +1,10 @@
-// SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
-//
-// SPDX-License-Identifier: MIT
-
+using Content.IntegrationTests.Fixtures;
 using Content.IntegrationTests.Utility;
 using Content.Shared.Explosion;
 
 namespace Content.IntegrationTests.Tests.Explosion;
 
-public sealed class ExplosionPrototypeTest
+public sealed class ExplosionPrototypeTest : GameTest
 {
     private static string[] _explosionKinds = GameDataScrounger.PrototypesOfKind<ExplosionPrototype>();
 
@@ -19,7 +14,7 @@ public sealed class ExplosionPrototypeTest
     [Description("Ensures various properties of ExplosionPrototype are correctly configured.")]
     public async Task Validate(string protoKey)
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
         var server = pair.Server;
         var protoMan = server.ProtoMan;
 
@@ -46,7 +41,5 @@ public sealed class ExplosionPrototypeTest
             Assert.That(proto.IntensityPerState, Is.Positive);
             Assert.That(proto.FireStates, Is.Positive);
         }
-
-        await pair.CleanReturnAsync();
     }
 }

@@ -16,6 +16,7 @@
 // SPDX-License-Identifier: MIT
 
 using Content.Client.Lobby;
+using Content.IntegrationTests.Fixtures;
 using Content.Server.Preferences.Managers;
 using Content.Shared.Humanoid;
 using Content.Shared.Preferences;
@@ -26,12 +27,14 @@ namespace Content.IntegrationTests.Tests.Lobby;
 [TestFixture]
 [TestOf(typeof(ClientPreferencesManager))]
 [TestOf(typeof(ServerPreferencesManager))]
-public sealed class CharacterCreationTest
+public sealed class CharacterCreationTest : GameTest
 {
+    public override PoolSettings PoolSettings => new() { InLobby = true };
+
     [Test]
     public async Task CreateDeleteCreateTest()
     {
-        await using var pair = await PoolManager.GetServerClient(new PoolSettings { InLobby = true });
+        var pair = Pair;
         var server = pair.Server;
         var client = pair.Client;
         var user = pair.Client.User!.Value;
@@ -89,7 +92,6 @@ public sealed class CharacterCreationTest
         serverCharacters = serverPrefManager.GetPreferences(user).Characters;
         Assert.That(serverCharacters, Has.Count.EqualTo(2));
         AssertEqual(serverCharacters[1], profile);
-        await pair.CleanReturnAsync();
     }
 
     private void AssertEqual(HumanoidCharacterProfile a, HumanoidCharacterProfile b)

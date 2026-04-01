@@ -1,16 +1,11 @@
-// SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
-//
-// SPDX-License-Identifier: MIT
-
+using Content.IntegrationTests.Fixtures;
 using Content.IntegrationTests.Utility;
 using Content.Shared.Alert;
 using Content.Shared.Mobs.Components;
 
 namespace Content.IntegrationTests.Tests.Damageable;
 
-public sealed class MobThresholdsTest
+public sealed class MobThresholdsTest : GameTest
 {
     private static string[] _entitiesWithThresholds = GameDataScrounger.EntitiesWithComponent("MobThresholds");
 
@@ -20,7 +15,7 @@ public sealed class MobThresholdsTest
     [Description("Ensures every entity with mob thresholds has valid mob state configuration corresponding to some AlertPrototype.")]
     public async Task ValidateMobThresholds(string protoKey)
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
         var server = pair.Server;
 
         var protoMan = server.ProtoMan;
@@ -39,7 +34,5 @@ public sealed class MobThresholdsTest
                 Assert.That(alertStates, Does.Contain(state), $"{proto.ID} does not have an alert state for mob state {state}");
             }
         });
-
-        await pair.CleanReturnAsync();
     }
 }

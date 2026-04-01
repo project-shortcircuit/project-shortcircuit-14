@@ -1,8 +1,4 @@
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-// SPDX-FileCopyrightText: 2026 pathetic meowmeow <uhhadd@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
+using Content.IntegrationTests.Fixtures;
 using Content.Shared.Body;
 using Content.Shared.Gibbing;
 using Robust.Shared.GameObjects;
@@ -11,7 +7,7 @@ namespace Content.IntegrationTests.Tests.Body;
 
 [TestFixture]
 [TestOf(typeof(GibbableOrganSystem))]
-public sealed class GibletTest
+public sealed class GibletTest : GameTest
 {
     [TestPrototypes]
     private const string Prototypes = @"
@@ -38,7 +34,7 @@ public sealed class GibletTest
     [Test]
     public async Task GibletCountTest()
     {
-        await using var pair = await PoolManager.GetServerClient();
+        var pair = Pair;
         var server = pair.Server;
 
         await server.WaitIdleAsync();
@@ -59,7 +55,5 @@ public sealed class GibletTest
                 Assert.That(entityManager.HasComponent<GibbableOrganComponent>(giblet), Is.True);
             }
         });
-
-        await pair.CleanReturnAsync();
     }
 }
