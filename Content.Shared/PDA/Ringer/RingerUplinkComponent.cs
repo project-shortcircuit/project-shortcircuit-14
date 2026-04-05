@@ -19,10 +19,4 @@ public sealed partial class RingerUplinkComponent : Component
     /// </summary>
     [DataField]
     public bool Unlocked;
-
-    /// <summary>
-    /// The store which the ringer is targetting.
-    /// </summary>
-    [DataField]
-    public EntityUid? TargetStore;
 }

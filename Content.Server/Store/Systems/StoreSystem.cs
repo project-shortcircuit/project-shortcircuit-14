@@ -54,8 +54,9 @@ public sealed partial class StoreSystem : SharedStoreSystem
         SubscribeLocalEvent<StoreComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<StoreComponent, ComponentStartup>(OnStartup);
         SubscribeLocalEvent<StoreComponent, ComponentShutdown>(OnShutdown);
-        SubscribeLocalEvent<StoreComponent, OpenUplinkImplantEvent>(OnImplantActivate);
         SubscribeLocalEvent<StoreComponent, IntrinsicStoreActionEvent>(OnIntrinsicStoreAction);
+
+        SubscribeLocalEvent<RemoteStoreComponent, OpenUplinkImplantEvent>(OnImplantActivate);
 
         InitializeUi();
         InitializeCommand();
@@ -131,9 +132,12 @@ public sealed partial class StoreSystem : SharedStoreSystem
         _popup.PopupEntity(msg, target, args.User);
     }
 
-    private void OnImplantActivate(EntityUid uid, StoreComponent component, OpenUplinkImplantEvent args)
+    private void OnImplantActivate(Entity<RemoteStoreComponent> entity, ref OpenUplinkImplantEvent args)
     {
-        ToggleUi(args.Performer, uid, component);
+        if (GetRemoteStore(entity.AsNullable()) is not { } store)
+            return;
+
+        ToggleUi(args.Performer, store, store.Comp, entity, entity.Comp);
     }
 
     /// <summary>
