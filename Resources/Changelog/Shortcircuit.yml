@@ -11,3 +11,17 @@ Entries:
       message: Androids now exist!
   id: 2
   time: '2026-03-26T19:13:23.0000000+00:00'
+- author: >-
+    SnappingOpossum, Tayrtahn, salarua, moonheart08, Simyon264, Velken,
+    slarticodefast, ArtisticRoomba, mnva0, M4rchy-S, insoPL, jessicamaybe,
+    NotActuallyMarty, sudobeans, VerinSenpai, Minemoder5000,
+    Princess-Cheeseballs
+  changes:
+    - type: Add
+      message: Visual effect for areas with very high temperature
+    - type: Tweak
+      message: Fancier (curly) quotes for chat messages.
+    - type: Fix
+      message: Fixes and refactors from Wizden.
+  id: 3
+  time: '2026-04-06T09:56:12.0000000+00:00'
