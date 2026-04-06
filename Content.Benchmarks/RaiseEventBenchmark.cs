@@ -1,4 +1,10 @@
-﻿#nullable enable
+// SPDX-FileCopyrightText: 2025 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
+//
+// SPDX-License-Identifier: MIT
+
+#nullable enable
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;

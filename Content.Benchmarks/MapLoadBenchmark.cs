@@ -12,6 +12,7 @@
 // SPDX-FileCopyrightText: 2025 Partmedia <kevinz5000@gmail.com>
 // SPDX-FileCopyrightText: 2025 Spessmann <156740760+Spessmann@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
 //
 // SPDX-License-Identifier: MIT
 
