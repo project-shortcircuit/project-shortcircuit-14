@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 InsoPL <lukasz.lindert@protonmail.com>
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Client.Atmos.Overlays;
 using JetBrains.Annotations;
 using Robust.Client.Graphics;

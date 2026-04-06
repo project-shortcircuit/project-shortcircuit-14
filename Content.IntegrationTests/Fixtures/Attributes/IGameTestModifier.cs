@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
+//
+// SPDX-License-Identifier: MIT
+
 namespace Content.IntegrationTests.Fixtures.Attributes;
 
 /// <summary>

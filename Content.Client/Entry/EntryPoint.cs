@@ -53,7 +53,6 @@
 // SPDX-FileCopyrightText: 2022 wrexbe <81056464+wrexbe@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2023 Miro Kavaliou <miraslauk@gmail.com>
-// SPDX-FileCopyrightText: 2023 Moony <moony@hellomouse.net>
 // SPDX-FileCopyrightText: 2023 TemporalOroboros <TemporalOroboros@gmail.com>
 // SPDX-FileCopyrightText: 2023 c4llv07e <38111072+c4llv07e@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 LordCarve <27449516+LordCarve@users.noreply.github.com>
@@ -74,6 +73,7 @@
 // SPDX-FileCopyrightText: 2025 deathride58 <deathride58@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
 // SPDX-FileCopyrightText: 2026 Julian Giebel <juliangiebel@live.de>
+// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
 //
 // SPDX-License-Identifier: MIT
 

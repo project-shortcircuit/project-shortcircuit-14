@@ -3,6 +3,7 @@
 // SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 keronshb <54602815+keronshb@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
 //
 // SPDX-License-Identifier: MIT
 
