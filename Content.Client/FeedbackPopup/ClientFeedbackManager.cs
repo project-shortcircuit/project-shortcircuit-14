@@ -37,7 +37,7 @@ public sealed class ClientFeedbackManager : SharedFeedbackManager
     /// <inheritdoc />
     public override void Display(List<ProtoId<FeedbackPopupPrototype>>? prototypes)
     {
-        if (prototypes == null || !NetManager.IsClient)
+        if (prototypes == null)
             return;
 
         var count = _displayedPopups.Count;
@@ -48,9 +48,6 @@ public sealed class ClientFeedbackManager : SharedFeedbackManager
     /// <inheritdoc />
     public override void Remove(List<ProtoId<FeedbackPopupPrototype>>? prototypes)
     {
-        if (!NetManager.IsClient)
-            return;
-
         if (prototypes == null)
         {
             _displayedPopups.Clear();
