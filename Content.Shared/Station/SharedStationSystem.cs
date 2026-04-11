@@ -17,8 +17,7 @@ public abstract partial class SharedStationSystem : EntitySystem
     [Dependency] private readonly SharedMapSystem _map = default!;
     [Dependency] private readonly MetaDataSystem _meta = default!;
 
-    private EntityQuery<TransformComponent> _xformQuery;
-    private EntityQuery<StationMemberComponent> _stationMemberQuery;
+    [Dependency] private readonly EntityQuery<StationMemberComponent> _stationMemberQuery = default!;
 
     /// <inheritdoc/>
     public override void Initialize()
@@ -26,9 +25,6 @@ public abstract partial class SharedStationSystem : EntitySystem
         base.Initialize();
 
         InitializeTracker();
-
-        _xformQuery = GetEntityQuery<TransformComponent>();
-        _stationMemberQuery = GetEntityQuery<StationMemberComponent>();
     }
 
     /// <summary>
