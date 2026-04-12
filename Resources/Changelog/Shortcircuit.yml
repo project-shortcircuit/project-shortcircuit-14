@@ -25,3 +25,12 @@ Entries:
       message: Fixes and refactors from Wizden.
   id: 3
   time: '2026-04-06T09:56:12.0000000+00:00'
+- author: >-
+    B-Kirill, VerinSenpai, ArtisticRoomba, Naxel11, southbridge-fur,
+    Princess-Cheeseballs, Tayrtahn, RainyGale, slarticodefast, ThatGuyUSA,
+    beck-thompson, alexalexmax, SirWarock, M4rchy-S, BeatusCrow
+  changes:
+    - type: Fix
+      message: Fixes and refactors from Wizden.
+  id: 4
+  time: '2026-04-12T09:20:49.0000000+00:00'
