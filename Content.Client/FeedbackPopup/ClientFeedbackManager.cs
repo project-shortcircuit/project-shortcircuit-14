@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: 2026 B_Kirill <153602297+B-Kirill@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
 // SPDX-FileCopyrightText: 2026 Julian Giebel <juliangiebel@live.de>
+// SPDX-FileCopyrightText: 2026 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 

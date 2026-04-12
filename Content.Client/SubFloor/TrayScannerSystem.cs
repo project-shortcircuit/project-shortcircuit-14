@@ -7,6 +7,7 @@
 // SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
 // SPDX-FileCopyrightText: 2025 qwerltaz <msmarcinpl@gmail.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 
