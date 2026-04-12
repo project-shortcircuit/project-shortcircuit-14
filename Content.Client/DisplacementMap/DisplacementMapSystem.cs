@@ -2,6 +2,7 @@
 // SPDX-FileCopyrightText: 2025 Hannah Giovanna Dawson <karakkaraz@gmail.com>
 // SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 ruddygreat <53099277+ruddygreat@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 
