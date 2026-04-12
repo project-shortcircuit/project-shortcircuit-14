@@ -12,6 +12,7 @@
 
 using Content.Shared.Body.Events;
 using Content.Shared.Damage.Events;
+using Content.Shared.Damage.Systems;
 using Content.Shared.Mobs.Events;
 using Content.Shared.Movement.Events;
 using Content.Shared.Movement.Systems;
@@ -47,6 +48,7 @@ public sealed partial class StatusEffectsSystem
         SubscribeLocalEvent<StatusEffectContainerComponent, AccentGetEvent>(RelayStatusEffectEvent);
 
         SubscribeLocalEvent<StatusEffectContainerComponent, BleedModifierEvent>(RefRelayStatusEffectEvent);
+        SubscribeLocalEvent<StatusEffectContainerComponent, DamageModifyEvent>(RelayStatusEffectEvent);
     }
 
     private void RefRelayStatusEffectEvent<T>(EntityUid uid, StatusEffectContainerComponent component, ref T args) where T : struct
