@@ -38,7 +38,6 @@
   - type: StatusEffects
     allowed:
     - Electrocution
-    - TemporaryBlindness
     - Adrenaline
   - type: StandingState
   - type: Tag
