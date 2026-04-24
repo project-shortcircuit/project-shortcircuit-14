@@ -57,6 +57,7 @@ public sealed class DeltaPressureTest : AtmosTest
       types:
         Structural: 1000
   - type: Damageable
+  - type: Injurable
   - type: Destructible
     thresholds:
     - trigger:

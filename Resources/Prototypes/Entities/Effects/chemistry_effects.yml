@@ -234,8 +234,9 @@
     replacementTiles:
     - FloorMetalFoam
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: Metallic
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:
     - trigger:
@@ -289,8 +290,9 @@
     - map: [ "enum.EdgeLayer.West" ]
       state: metal_foam-west
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: FlimsyMetallic
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:
     - trigger:
