@@ -21,6 +21,7 @@
     graph: DetonatorGraph
     node: emptyDetonator
   - type: Damageable
+  - type: Injurable
     damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:

@@ -54,6 +54,7 @@
           True: {visible: true}
           False: {visible: false}
   - type: Damageable
+  - type: Injurable
     damageContainer: Inorganic
   - type: Destructible
     thresholds:

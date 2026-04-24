@@ -158,6 +158,7 @@
     guides:
     - Janitorial
   - type: Damageable
+  - type: Injurable
     damageContainer: Inorganic
   - type: Destructible
     thresholds:
@@ -330,8 +331,9 @@
     - type: ExaminableSolution
       solution: bucket
     - type: Damageable
-      damageContainer: Inorganic
       damageModifierSet: Metallic
+    - type: Injurable
+      damageContainer: Inorganic
     - type: Destructible
       thresholds:
         - trigger:
