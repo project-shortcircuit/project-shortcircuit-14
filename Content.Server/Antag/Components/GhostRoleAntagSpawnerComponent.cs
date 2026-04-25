@@ -3,10 +3,11 @@
 //
 // SPDX-License-Identifier: MIT
 
-namespace Content.Server.Antag.Components;
+using Content.Shared.Antag;
+using Robust.Shared.Prototypes;
 
 /// <summary>
-/// Ghost role spawner that creates an antag for the associated gamerule.
+/// Ghost role spawner that creates an antag for the associated game rule.
 /// </summary>
 [RegisterComponent, Access(typeof(AntagSelectionSystem))]
 public sealed partial class GhostRoleAntagSpawnerComponent : Component
@@ -15,5 +16,5 @@ public sealed partial class GhostRoleAntagSpawnerComponent : Component
     public EntityUid? Rule;
 
     [DataField]
-    public AntagSelectionDefinition? Definition;
+    public ProtoId<AntagSpecifierPrototype>? Definition;
 }
