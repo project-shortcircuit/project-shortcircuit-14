@@ -44,10 +44,6 @@
     state: burnt-icon
   - type: Smokable
     state: Burnt
-  - type: SolutionContainerManager
-    solutions:
-      smokable:
-        maxVol: 20
   - type: Tag
     tags:
       - Cigar
@@ -79,7 +75,3 @@
     state: burnt-icon
   - type: Smokable
     state: Burnt
-  - type: SolutionContainerManager
-    solutions:
-      smokable:
-        maxVol: 20

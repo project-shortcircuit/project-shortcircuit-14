@@ -295,12 +295,9 @@
       types:
         Piercing: 6
         Poison: 4
-  - type: SolutionContainerManager
+  - type: SolutionManager
     solutions:
-      melee:
-        reagents:
-        - ReagentId: ChloralHydrate
-          Quantity: 80
+    - SolutionVenomSpiderSpace
   - type: MeleeChemicalInjector
     solution: melee
     transferAmount: 4
@@ -327,6 +324,17 @@
       Unsexed: UnisexArachnid
   - type: TypingIndicator
     proto: spider
+
+- type: entity
+  parent: [SolutionWeapon, SolutionTiny]
+  id: SolutionVenomSpiderSpace
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: ChloralHydrate
+        Quantity: 30
 
 - type: entity
   id: MobSpiderSpaceSalvage
@@ -401,12 +409,9 @@
         types:
           Piercing: 6
           Poison: 4
-    - type: SolutionContainerManager
+    - type: SolutionManager
       solutions:
-        melee:
-          reagents:
-          - ReagentId: NorepinephricAcid
-            Quantity: 90
+      - SolutionVenomCobraSpace
     - type: MeleeChemicalInjector
       solution: melee
       transferAmount: 6
@@ -428,6 +433,17 @@
       movementVisibilityRate: 0.25
 
 - type: entity
+  parent: [SolutionWeapon, SolutionTiny]
+  id: SolutionVenomCobraSpace
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: NorepinephricAcid
+        Quantity: 30
+
+- type: entity
   id: MobCobraSpaceSalvage
   parent: MobCobraSpace
   suffix: "Salvage Ruleset"
@@ -435,9 +451,7 @@
     - type: SalvageMobRestrictions
 
 - type: entity
-  parent:
-  - SimpleSpaceMobBase
-  - BaseMobAnimal
+  parent: [SimpleSpaceMobBase, BaseMobAnimal, SolutionVermin]
   id: MobSnail
   name: snail
   description: Revolting unless you're french.
@@ -514,6 +528,15 @@
       Dead:
         Base: dead
   - type: Edible
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: UncookedAnimalProteins
+        Quantity: 8
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: Water
+        Quantity: 4 #It makes saline if you add salt!
   - type: Thirst
     startingThirst: 25  # spawn with Okay thirst state
     thresholds:
@@ -533,16 +556,6 @@
     baseDecayRate: 0.1
   - type: Extractable
     grindableSolutionName: food
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        reagents:
-        - ReagentId: UncookedAnimalProteins
-          Quantity: 3
-  - type: Butcherable
-    spawned:
-    - id: FoodMeatSnail
-      amount: 1
   - type: Tag
     tags:
     - Trash

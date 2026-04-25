@@ -15,7 +15,7 @@
 
 - type: entity
   abstract: true
-  parent: BaseItem
+  parent: MaterialBase
   id: ShardCrystalBase
   name: crystal shard
   description:  A small piece of crystal.
@@ -43,16 +43,6 @@
         Slash: 3.5
   - type: Damageable
     damageModifierSet: Glass
-  - type: Injurable
-    damageContainer: Inorganic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 100
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
   - type: StaticPrice
     price: 50
 
