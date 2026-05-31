@@ -16,6 +16,8 @@
 // SPDX-FileCopyrightText: 2025 Whatstone <166147148+whatston3@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Winkarst-cpu <74284083+Winkarst-cpu@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Jessica M <jessica@jessicamaybe.com>
+// SPDX-FileCopyrightText: 2026 Perry Fraser <perryprog@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 
