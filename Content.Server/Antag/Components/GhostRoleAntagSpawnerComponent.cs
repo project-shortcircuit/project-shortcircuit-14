@@ -2,9 +2,10 @@
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
 //
 // SPDX-License-Identifier: MIT
-
 using Content.Shared.Antag;
 using Robust.Shared.Prototypes;
+
+namespace Content.Server.Antag.Components;
 
 /// <summary>
 /// Ghost role spawner that creates an antag for the associated game rule.
