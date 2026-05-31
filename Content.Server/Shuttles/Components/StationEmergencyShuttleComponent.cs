@@ -3,6 +3,7 @@
 // SPDX-FileCopyrightText: 2024 ElectroJr <leonsfriedrich@gmail.com>
 // SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Marchy <89603088+M4rchy-S@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 
