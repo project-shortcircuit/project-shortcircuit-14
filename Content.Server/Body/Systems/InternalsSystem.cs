@@ -63,8 +63,8 @@ public sealed class InternalsSystem : SharedInternalsSystem
             return; // already connected
 
         // Shortcircuit: return if the entity does not need to breathe at all
-        if (!TryComp(uid, out var _))
-            return;
+        // if (!TryComp(uid, out var _))
+        //    return;
 
         // Can the entity breathe the air it is currently exposed to?
         if (_respirator.CanMetabolizeInhaledAir(uid))
