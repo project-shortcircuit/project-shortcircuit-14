@@ -34,3 +34,11 @@ Entries:
       message: Fixes and refactors from Wizden.
   id: 4
   time: '2026-04-12T09:20:49.0000000+00:00'
+- author: >-
+    iaaada, ThatGuyUSA, M4rchy-S, Glissadia, Princess-Cheeseballs, CaasGit,
+    SlamBamActionman
+  changes:
+    - type: Tweak
+      message: Wizden fixes and refactors
+  id: 5
+  time: '2026-05-31T16:09:22.0000000+00:00'
