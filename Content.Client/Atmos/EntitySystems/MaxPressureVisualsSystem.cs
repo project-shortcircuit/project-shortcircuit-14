@@ -1,4 +1,8 @@
-﻿using Content.Client.Atmos.Components;
+// SPDX-FileCopyrightText: 2026 Princess Cheeseballs <66055347+Princess-Cheeseballs@users.noreply.github.com>
+//
+// SPDX-License-Identifier: MIT
+
+using Content.Client.Atmos.Components;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Atmos.EntitySystems;
 using Content.Shared.Rounding;

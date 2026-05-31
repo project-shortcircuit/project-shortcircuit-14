@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: 2021 Vera Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2022 mirrorcult <lunarautomaton6@gmail.com>
 // SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
+// SPDX-FileCopyrightText: 2026 Pok <113675512+Pok27@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 
