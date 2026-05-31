@@ -90,6 +90,7 @@
   name: Urist McDroid
   components:
   - type: Damageable
+  - type: Injurable
     damageContainer: SCCSynthetic
   - type: Bloodstream
     bloodReferenceSolution:
