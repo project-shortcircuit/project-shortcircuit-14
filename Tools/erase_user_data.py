@@ -1,20 +1,9 @@
-# SPDX-FileCopyrightText: 2023 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Riggle <27156122+RigglePrime@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Myra <vasilis@pikachu.systems>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-# SPDX-FileCopyrightText: 2026 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-#
-# SPDX-License-Identifier: MIT
-
 #!/usr/bin/env python3
-
 # Script for erasing all data about a user from the database.
 # Intended for GDPR erasure requests.
-#
 # NOTE: We recommend implementing a "GDPR Erasure Ban" on the user's last IP/HWID before erasing their data, to prevent abuse.
 # This is acceptable under the GDPR as a "legitimate interest" to prevent GDPR erasure being used to avoid moderation/bans.
 # You would need to do this *before* running this script, to avoid losing the IP/HWID of the user entirely.
-
 import argparse
 import os
 import psycopg2

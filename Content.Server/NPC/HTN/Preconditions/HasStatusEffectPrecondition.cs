@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2025 Deserty0 <86846189+Deserty0@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Shared.StatusEffectNew;
 using Robust.Shared.Prototypes;
 

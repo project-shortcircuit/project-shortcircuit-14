@@ -1,10 +1,4 @@
-# SPDX-FileCopyrightText: 2022 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 ## Damage command loc.
-
 damage-command-description = Add or remove damage to an entity. 
 damage-command-help = Usage: {$command} <type/group> <amount> [ignoreResistances] [uid]
 

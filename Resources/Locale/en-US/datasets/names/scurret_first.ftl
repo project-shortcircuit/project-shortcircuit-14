@@ -1,25 +1,14 @@
-# SPDX-FileCopyrightText: 2025 Hannah Giovanna Dawson <karakkaraz@gmail.com>
-# SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 # Scurrets from Planet Wawa have two parts to their name - a 'chosen' and 'qualitative' name.
-
 # The chosen name is picked by the scurret themselves,
 # encompassing a trait or value they hold themselves
 # to or have a high value for. Scurrets sometimes change this
 # name to denote an important moment in their life.
-
 # It appears to be common for scurret sets to share the same
 # chosen name, with the gaining of a pup's own chosen name
 # signalling their transition to adulthood in the community.
-
 # Given the scurret language is untranslated, these names are
 # usually guessed via charades or Pictionary.
-
 # When all else fails, to NT and her crews, Wa is as good a name as any.
-
 names-scurret-first-dataset-1 = Wa
 names-scurret-first-dataset-2 = Calm
 names-scurret-first-dataset-3 = Contented

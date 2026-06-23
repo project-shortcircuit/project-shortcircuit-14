@@ -1,13 +1,4 @@
-# SPDX-FileCopyrightText: 2023 KP <13428215+nok-ko@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Kara <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2025 Cojoke <83733158+Cojoke-dot@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
-
 ## Messages shown to Pacified players when they try to do violence:
-
 # With projectiles:
 pacified-cannot-throw = I can't bring myself to throw { THE($projectile) }, that could hurt someone!
 # With embedding projectiles:

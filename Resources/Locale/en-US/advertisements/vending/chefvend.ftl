@@ -1,11 +1,3 @@
-# SPDX-FileCopyrightText: 2022 ChilbroBaggins <107660393+ChilbroBaggins@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Jeff <velcroboy333@hotmail.com>
-# SPDX-FileCopyrightText: 2024 Tayrtahn <tayrtahn@gmail.com>
-# SPDX-FileCopyrightText: 2024 Ubaser <134914314+UbaserB@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 advertisement-chefvend-1 = At least sixty percent of our eggs un-broken, guranteed!
 advertisement-chefvend-2 = Rice, rice, baby.
 advertisement-chefvend-3 = Slap some butter on it!

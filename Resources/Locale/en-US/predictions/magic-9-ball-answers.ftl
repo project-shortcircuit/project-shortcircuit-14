@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-# SPDX-FileCopyrightText: 2026 Thinbug <101073555+Thinbug0@users.noreply.github.com>
-#
-# SPDX-License-Identifier: MIT
-
 # Positive
 magic-9-ball-1 = Yes
 magic-9-ball-2 = YES!!!!

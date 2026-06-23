@@ -1,5 +1,4 @@
 // From https://godotshaders.com/snippet/2d-noise/
-
 uniform sampler2D SCREEN_TEXTURE;
 uniform highp vec2 positionInput;
 uniform highp vec2 renderScale;

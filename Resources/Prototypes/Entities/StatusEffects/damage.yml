@@ -1,5 +1,4 @@
 ## Abstract
-
 - type: entity
   abstract: true
   parent: StatusEffectBase

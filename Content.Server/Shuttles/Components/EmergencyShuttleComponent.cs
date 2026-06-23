@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2023 avery <51971268+graevy@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Server.Shuttles.Systems;
 
 namespace Content.Server.Shuttles.Components;

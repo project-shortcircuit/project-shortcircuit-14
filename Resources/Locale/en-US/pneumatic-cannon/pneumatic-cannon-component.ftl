@@ -1,11 +1,4 @@
-# SPDX-FileCopyrightText: 2021 mirrorcult <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2023 Kara <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 ### Loc for the pneumatic cannon.
-
 pneumatic-cannon-component-itemslot-name = Gas Tank
 
 ## Shown when trying to fire, but no gas

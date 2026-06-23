@@ -1,10 +1,4 @@
-# SPDX-FileCopyrightText: 2025 0x6273 <0x40@keemail.me>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 ## Used for date picker
-
 month-1 = January
 month-2 = February
 month-3 = Mars

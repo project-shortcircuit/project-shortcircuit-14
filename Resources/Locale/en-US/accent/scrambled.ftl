@@ -1,9 +1,3 @@
-# SPDX-FileCopyrightText: 2022 Jessica M <jessica@jessicamaybe.com>
-# SPDX-FileCopyrightText: 2023 Visne <39844191+Visne@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 accent-scrambled-words-1 = Who?
 accent-scrambled-words-2 = What?
 accent-scrambled-words-3 = When?

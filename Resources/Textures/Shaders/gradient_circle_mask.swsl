@@ -1,6 +1,5 @@
 // Has 2 circles, an inner one that is unaffected and an outer one. Anything past the outer one is full red
 // and in-between is a gradient.
-
 light_mode unshaded;
 
 uniform highp vec3 color;

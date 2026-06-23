@@ -1,9 +1,4 @@
-// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
-//
-// SPDX-License-Identifier: MIT
-
 #nullable enable
-
 namespace Content.IntegrationTests.Fixtures.Attributes;
 
 /// <summary>

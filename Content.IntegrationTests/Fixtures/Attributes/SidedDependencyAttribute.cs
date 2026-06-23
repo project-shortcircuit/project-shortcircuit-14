@@ -1,5 +1,4 @@
 #nullable enable
-
 namespace Content.IntegrationTests.Fixtures.Attributes;
 
 /// <summary>

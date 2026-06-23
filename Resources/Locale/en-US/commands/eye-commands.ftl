@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 parse-bool-fail = Unable to parse {$arg} as a bool
 parse-float-fail = Unable to parse {$arg} as a float
 

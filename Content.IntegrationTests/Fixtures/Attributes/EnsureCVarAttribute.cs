@@ -1,7 +1,3 @@
-// SPDX-FileCopyrightText: 2026 Moony <moony@hellomouse.net>
-//
-// SPDX-License-Identifier: MIT
-
 #nullable enable
 using System.Reflection;
 using NUnit.Framework.Interfaces;
