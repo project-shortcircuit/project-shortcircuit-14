@@ -1,4 +1,5 @@
 using Content.Server.Atmos.EntitySystems;
+using Content.Server.Body.Components;
 using Content.Shared.Alert;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Body.Components;
@@ -35,8 +36,8 @@ public sealed class InternalsSystem : SharedInternalsSystem
             return; // already connected
 
         // Shortcircuit: return if the entity does not need to breathe at all
-        // if (!TryComp(uid, out var _))
-        //    return;
+        if (!TryComp(uid, out RespiratorComponent? _))
+            return;
 
         // Can the entity breathe the air it is currently exposed to?
         if (_respirator.CanMetabolizeInhaledAir(uid))
