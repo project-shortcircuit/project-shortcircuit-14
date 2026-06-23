@@ -1,9 +1,3 @@
-// SPDX-FileCopyrightText: 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-// SPDX-FileCopyrightText: 2026 Princess Cheeseballs <66055347+Princess-Cheeseballs@users.noreply.github.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Client.Atmos.UI;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Atmos.Piping.Binary.Components;

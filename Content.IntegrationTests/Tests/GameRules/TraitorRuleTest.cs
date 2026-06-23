@@ -1,9 +1,3 @@
-// SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using System.Linq;
 using Content.IntegrationTests.Fixtures;
 using Content.Server.Antag.Components;

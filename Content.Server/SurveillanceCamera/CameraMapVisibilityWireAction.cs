@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2026 B_Kirill <153602297+B-Kirill@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Server.Wires;
 using Content.Shared.SurveillanceCamera.Components;
 using Content.Shared.Wires;

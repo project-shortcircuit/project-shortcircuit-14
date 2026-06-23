@@ -1,9 +1,3 @@
-// SPDX-FileCopyrightText: 2025 BarryNorfolk <barrynorfolkman@protonmail.com>
-// SPDX-FileCopyrightText: 2025 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Client.Message;
 using Content.Shared.Cargo;
 using Content.Shared.Cargo.Prototypes;

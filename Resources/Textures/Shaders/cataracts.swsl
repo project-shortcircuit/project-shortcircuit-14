@@ -16,7 +16,6 @@
 // All of this in combination manages to achieve an experience that hits the same notes of what's common for blind folks to report, but in a *very* stylized manner.
 // And of course, more importantly: the combination ensures that if your character is blind, then you simply can't see shit. You can certainly *try*, just as blind folks IRL are able to, but that'll be fruitless!
 // Oh. God. We're already at 18 lines of header comments. We rambled, huh? Anyway, thank you for coming to our TED talk. - Bhijn & Myr
-
 // Boilerplate vars
 uniform sampler2D SCREEN_TEXTURE;
 uniform sampler2D LIGHT_TEXTURE;

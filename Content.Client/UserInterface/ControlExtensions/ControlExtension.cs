@@ -1,9 +1,3 @@
-// SPDX-FileCopyrightText: 2023 Hebi <spiritbreakz@gmail.com>
-// SPDX-FileCopyrightText: 2025 Ciarán Walsh <github@ciaranwal.sh>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 using Content.Client.Guidebook.Controls;

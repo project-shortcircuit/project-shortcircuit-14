@@ -1,15 +1,4 @@
-# SPDX-FileCopyrightText: 2021 mirrorcult <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2022 Nairod <110078045+Nairodian@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 CrigCrag <137215465+CrigCrag@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Interrobang01 <113810873+Interrobang01@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Maxtone <124747282+MagnusCrowe@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Whisper <121047731+QuietlyWhisper@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 ### Messages that can be utilized by multiple reagents.
-
 generic-reagent-effect-burning-insides = You feel your insides burning up!
 generic-reagent-effect-burning-eyes = Your eyes begin to slightly burn.
 generic-reagent-effect-burning-eyes-a-bit = Your eyes burn a bit.

@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2025 J <billsmith116@gmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Shared.Speech.EntitySystems;
 using Robust.Shared.GameStates;
 

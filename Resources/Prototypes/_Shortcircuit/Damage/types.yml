@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 - type: damageType
   id: SCCUndervoltage
   name: scc-damage-type-undervoltage

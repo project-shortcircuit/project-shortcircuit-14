@@ -1,11 +1,5 @@
-# SPDX-FileCopyrightText: 2021 mirrorcult <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 ### Localization used for the list verbs command.
 # Mostly help + error messages.
-
 list-verbs-command-description = Lists all verbs that a player can use on a given entity.
 list-verbs-command-help = listverbs <playerUid | "self"> <targetUid>
 

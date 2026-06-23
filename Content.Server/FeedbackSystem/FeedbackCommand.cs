@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-// SPDX-FileCopyrightText: 2026 Julian Giebel <juliangiebel@live.de>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Server.Administration;
 using Content.Shared.Administration;
 using Content.Shared.FeedbackSystem;

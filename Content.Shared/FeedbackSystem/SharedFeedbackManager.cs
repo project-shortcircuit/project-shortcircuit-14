@@ -1,9 +1,3 @@
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-// SPDX-FileCopyrightText: 2026 Julian Giebel <juliangiebel@live.de>
-// SPDX-FileCopyrightText: 2026 Samuka <47865393+Samuka-C@users.noreply.github.com>
-//
-// SPDX-License-Identifier: MIT
-
 using System.Linq;
 using Robust.Shared.Network;
 using Robust.Shared.Player;

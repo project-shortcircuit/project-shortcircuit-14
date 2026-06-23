@@ -1,13 +1,6 @@
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-# SPDX-FileCopyrightText: 2026 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-#
-# SPDX-License-Identifier: MIT
-
 #!/usr/bin/env python3
-
 # User data dumping script for dumping data from an SS14 postgres database.
 # Intended to service GDPR data requests or what have you.
-
 import argparse
 import os
 import psycopg2

@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2024 Kara <lunarautomaton6@gmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Shared.Storage;
 using Content.Shared.Whitelist;
 using Robust.Shared.Prototypes;

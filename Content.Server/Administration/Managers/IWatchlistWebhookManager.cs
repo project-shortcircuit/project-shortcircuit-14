@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2025 Palladinium <patrick.chieppe@hotmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Server.Administration.Notes;
 using Content.Server.Database;
 using Content.Server.Discord;

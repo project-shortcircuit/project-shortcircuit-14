@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-# SPDX-FileCopyrightText: 2026 Julian Giebel <juliangiebel@live.de>
-#
-# SPDX-License-Identifier: MIT
-
 feedbackpopup-window-name = Request for feedback
 
 feedbackpopup-control-button-text = Open Link

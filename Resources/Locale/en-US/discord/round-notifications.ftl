@@ -1,9 +1,3 @@
-# SPDX-FileCopyrightText: 2023 Morb <14136326+Morb0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 GeneralGaws <122978178+GeneralGaws@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 discord-round-notifications-new = A new round is starting!
 discord-round-notifications-started = Round #{$id} on map "{$map}" started.
 discord-round-notifications-end = Round #{$id} has ended. It lasted for {$hours} hours, {$minutes} minutes, and {$seconds} seconds.

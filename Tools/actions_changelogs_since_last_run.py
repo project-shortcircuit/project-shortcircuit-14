@@ -1,16 +1,4 @@
-# SPDX-FileCopyrightText: 2023 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-# SPDX-FileCopyrightText: 2023 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Myra <vasilis@pikachu.systems>
-# SPDX-FileCopyrightText: 2025 Red <96445749+TheShuEd@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 imcb <irismessage@protonmail.com>
-# SPDX-FileCopyrightText: 2025 little-meow-meow <204685920+little-meow-meow@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 #!/usr/bin/env python3
-
 """
 Sends updates to a Discord webhook for new changelog entries since the last GitHub Actions publish run.
 

@@ -1,7 +1,3 @@
-// SPDX-FileCopyrightText: 2026 āda <ss.adasts@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Shared.Damage.Components;
 using Content.Shared.StatusEffectNew;
 

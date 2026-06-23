@@ -1,21 +1,9 @@
-# SPDX-FileCopyrightText: 2024 Matt <psykzz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 #!/usr/bin/env python3
-
-#
 # Updates an RSS file on a remote server with updates to the changelog.
 # See https://docs.spacestation14.io/en/hosting/changelogs for instructions.
-#
-
 # If you wanna test this script locally on Windows,
 # you can use something like this in Powershell to set up the env var:
 # $env:CHANGELOG_RSS_KEY=[System.IO.File]::ReadAllText($(gci "key"))
-
 import os
 import paramiko
 import pathlib

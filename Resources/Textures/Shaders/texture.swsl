@@ -1,7 +1,5 @@
-
 //Draws the given texture at the given screen coords. Useful in specific scenarios (i.e. this was made for drawing singularity sprites over the lensing effect but below FOV)
 //Currently does not work with AtlasTextures, going to need some work.
-
 uniform sampler2D tex;
 uniform highp vec2 positionInput;
 uniform highp vec2 pixelSize;

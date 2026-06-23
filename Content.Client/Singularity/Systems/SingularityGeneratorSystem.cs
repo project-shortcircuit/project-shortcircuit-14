@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2024 Saphire <lattice@saphi.re>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Shared.Singularity.EntitySystems;
 using Content.Shared.Singularity.Components;
 

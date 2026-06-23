@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2025 qwerltaz <msmarcinpl@gmail.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 using System.Linq;
 using Content.Shared.SubFloor;
 using Robust.Shared.Map.Components;

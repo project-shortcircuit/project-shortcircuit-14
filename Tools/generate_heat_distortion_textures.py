@@ -1,5 +1,4 @@
 #This is script that was used to generate textures for heatdistortion
-
 from pyfastnoiselite.pyfastnoiselite import FastNoiseLite, NoiseType, FractalType
 from PIL import Image
 import math

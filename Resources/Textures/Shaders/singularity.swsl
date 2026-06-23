@@ -1,5 +1,4 @@
 //Gravitational lensing effect. Loosely inspired by https://unionassets.com/blog/the-effect-of-the-gravitational-lens-195 to be Clyde based (based on what)
-
 uniform sampler2D SCREEN_TEXTURE;
 uniform highp vec2 renderScale;
 uniform highp float maxDistance;

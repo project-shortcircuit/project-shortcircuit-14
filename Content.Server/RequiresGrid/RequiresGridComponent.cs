@@ -1,8 +1,3 @@
-// SPDX-FileCopyrightText: 2024 HoofedEar <HoofedEar@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-//
-// SPDX-License-Identifier: MIT
-
 namespace Content.Server.RequiresGrid;
 
 /// <summary>

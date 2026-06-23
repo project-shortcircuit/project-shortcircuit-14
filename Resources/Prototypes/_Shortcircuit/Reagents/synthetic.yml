@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 - type: reagent
   id: SCCBlueBlood
   name: scc-reagent-name-blue-blood

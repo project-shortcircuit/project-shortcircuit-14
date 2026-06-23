@@ -1,6 +1,5 @@
 // Sin City style shader.
 // Makes everything black and white, but keeps red colors.
-
 uniform sampler2D SCREEN_TEXTURE;
 // Sensitivity, in degrees.
 const highp float RedHueRange = 5.0;

@@ -1,10 +1,4 @@
-# SPDX-FileCopyrightText: 2025 āda <ss.adasts@gmail.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 # Base categories
-
 - type: latheRecipe
   abstract: true
   id: BaseEngineeringComputerRecipeCategory

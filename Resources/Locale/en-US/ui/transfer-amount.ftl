@@ -1,12 +1,5 @@
-# SPDX-FileCopyrightText: 2021 mirrorcult <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
 ### Loc for the transfer amount eui window
-
 ## Title
-
 ui-transfer-amount-title = Change Transfer Amount
 
 ## Text for the button to apply changes

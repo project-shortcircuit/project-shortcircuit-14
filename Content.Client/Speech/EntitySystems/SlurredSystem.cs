@@ -1,10 +1,3 @@
-// SPDX-FileCopyrightText: 2022 Kara D <lunarautomaton6@gmail.com>
-// SPDX-FileCopyrightText: 2022 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-// SPDX-FileCopyrightText: 2026 Pok <113675512+Pok27@users.noreply.github.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Shared.Speech.Components;
 using Content.Shared.Speech.EntitySystems;
 

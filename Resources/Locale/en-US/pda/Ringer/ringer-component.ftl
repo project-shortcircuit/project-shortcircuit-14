@@ -1,16 +1,5 @@
-# SPDX-FileCopyrightText: 2022 TheDarkElites <73414180+TheDarkElites@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 metalgearsloth <comedian_vs_clown@hotmail.com>
-# SPDX-FileCopyrightText: 2023 MishaUnity <81403616+MishaUnity@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Julian Giebel <juliangiebel@live.de>
-# SPDX-FileCopyrightText: 2026 Ilya Mikheev <me@ilyamikcoder.com>
-#
-# SPDX-License-Identifier: MIT
-
-
 ### UI
-
 # For the PDA Ringer screen
-
 comp-ringer-vibration-popup = Your PDA vibrates
 
 comp-ringer-ui-menu-title = Ringtone
